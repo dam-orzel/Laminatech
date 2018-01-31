@@ -1,0 +1,28 @@
+{
+  "name": "laminatech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss -o css --source-map-embed --source-map-contents --output-style compressed",
+    "watch:sass": "npm run sass -- --watch"
+  },
+  "babel-loader": "7.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzotoN1/Laminatech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzotoN1/Laminatech/issues"
+  },
+  "homepage": "https://github.com/AzotoN1/Laminatech#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "clean-css": "^4.1.9"
+  }
+}
