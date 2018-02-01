@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////
 $body-color: rgb(251, 251, 251);
 $border-d: rgba(77, 77, 77, 0.60);
-
+$border-dh: rgb(47, 102, 176);
 
 
 /////////////////////////////////////////////////////////////
@@ -38,7 +38,7 @@ body {
   box-shadow: 0px 5px 3px -5px rgba(0,0,0,0.20);
     &:hover {
       padding: 0px 10px 12px 10px;
-      border-bottom: 4px solid rgb(35, 83, 148);
+      border-bottom: 4px solid $border-dh;
       transition: border-bottom 0.4s;
     }
 }
@@ -63,16 +63,27 @@ body {
 
 .main-content-text {
   font-size: 13px;
-
 }
 
 .main-content-border {
   padding-top: 20px;
   border-top: 2px solid $border-d;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -4px;
+    left: 0px;
+    right: 60%;
+    bottom: 0px;
+    border-width: 20px;
+    border-top: 4px solid $border-dh;
+  }
 }
 
-#main-content .col-md-12:first-child h3:first-child {
-  margin-bottom: 0px;
-  margin-top: 14px;
-
-}
+// #main-content .col-md-12:first-child h3:first-child {
+//   margin-bottom: 0px;
+//   margin-top: 14px;
+//
+// }
