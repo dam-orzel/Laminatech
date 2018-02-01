@@ -3,8 +3,8 @@
 ///////                 Style wielokrotne             ///////
 ///////
 /////////////////////////////////////////////////////////////
-$body-color: #eee;
-
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, 0.60);
 
 
 
@@ -32,26 +32,47 @@ body {
   padding: 0px 10px 18px 10px;
   margin-left: 30px;
   text-transform: uppercase;
-  border-bottom: 1px solid rgb(2, 27, 61);
+  border-bottom: 2px solid $border-d;
   -webkit-box-shadow: 0px 5px 3px -5px rgba(0,0,0,0.20);
   -moz-box-shadow: 0px 5px 3px -5px rgba(0,0,0,0.20);
   box-shadow: 0px 5px 3px -5px rgba(0,0,0,0.20);
     &:hover {
       padding: 0px 10px 12px 10px;
       border-bottom: 4px solid rgb(35, 83, 148);
+      transition: border-bottom 0.4s;
     }
+}
+
+.jumbotron {
+  background: $body-color;
 }
 
 .header-content {
   width: 100%;
-  height: 600px;
+  height: 450px;
   background-image: url("https://images.pexels.com/photos/315752/pexels-photo-315752.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   background-position: center;
-  animation: breath 17s linear infinite;
+  animation: breath 20s linear infinite;
 }
 
 @-webkit-keyframes breath {
   0%   { background-size: 100% auto; }
   50%   { background-size: 130% auto; }
   100%   { background-size: 100% auto; }
+}
+
+.main-content-text {
+  font-size: 13px;
+
+}
+
+.main-content-border {
+  padding-top: 20px;
+  border-top: 2px solid $border-d;
+}
+
+#main-content .col-md-12:first-child h3:first-child {
+  margin-bottom: 0px;
+  margin-top: 14px;
+
 }
