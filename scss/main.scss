@@ -60,6 +60,11 @@ body {
   @include breakpoint($dev-xl) {
     font-size: 0.8em;
   }
+
+}
+
+.dropdown-bg {
+  background: $body-color;
 }
 
 .jumbotron {
@@ -224,7 +229,7 @@ body {
             position: absolute;
             z-index: 0;
             top: 33%;
-            left: 8%;
+            left: 10%;
             right: 50%;
             bottom: 0;
             border-width: 20px;
