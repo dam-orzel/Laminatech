@@ -8,27 +8,30 @@
   <title>Laminatech</title>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora&amp;subset=latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <section id="navigation">
-    <div class="d-block d-md-none">
+    <div class="d-block d-lg-none">
       <nav class="navbar navbar-toggleable-md navbar-light bg-faded nav-main-option">
         <div class="">
-          <button class="navbar-toggler navbar-toggler-left mr-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler navbar-toggler-right mr-2 float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.svg" class="img-fluid mx-5" width="250" height="100" alt="">
+          <div class="container">
+          <a class="navbar-brand float-left" href="#">
+            <img src="images/logo.svg" class="img-fluid mx-3 mb-3" width="270" height="100" alt="">
           </a>
-          <div class="collapse navbar-collapse navbar-menu-option" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active ml-auto">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </div>
+          <div class="collapse navbar-collapse navbar-menu-option w-100 " id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto w-100">
+              <li class="nav-item active mt-5">
+                <a class="nav-link text-center" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item dropdown ml-auto">
-                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item dropdown m-auto">
+                <a class="nav-link dropdown-toggle text-center" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Dane Techniczne
             </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -37,30 +40,31 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li class="nav-item ml-auto">
-                <a class="nav-link " href="#">Produkty</a>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Produkty</a>
               </li>
-              <li class="nav-item ml-auto">
-                <a class="nav-link " href="#">Kontakt</a>
+              <li class="nav-item">
+                <a class="nav-link text-center" href="#">Kontakt</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
-    <div class="d-none d-md-block">
+    <div class="d-none d-lg-block">
       <nav class="navbar navbar-toggleable-md navbar-light bg-faded nav-main-option">
         <div class="container">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
           <a class="navbar-brand d-none d-lg-block" href="#">
         <img src="images/logo.svg" class="img-fluid" width="400" height="100" alt="">
       </a>
-      <a class="navbar-brand d-sm-block d-lg-none" href="#">
-    <img src="images/logo.svg" class="img-fluid mx-5" width="300" height="100" alt="">
+      <a class="navbar-brand d-sm-block d-lg-none pb-3" href="#">
+    <img src="images/logo.svg" class="img-fluid mx-5" width="200" height="100" alt="">
   </a>
-          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <div class="collapse navbar-collapse mx-2" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto navbar-menu-option">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -138,7 +142,7 @@
     <div class="d-none d-md-block">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 col-xl-4 px-5">
+          <div class="col-12 col-xl-4 px-5">
             <h3 class="font-weight-bold pb-4">Drogi, parkingi, podjazdy</h3>
             <!-- </br> -->
             <div class="main-content-border">
@@ -147,14 +151,14 @@
             <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
           </div>
 
-          <div class="col-lg-12 col-xl-4 px-5 ">
+          <div class="col-12 col-xl-4 px-5 ">
             <h3 class="font-weight-bold pb-4">Obiekty produkcyjne i przemysłowe</h3>
             <div class="main-content-border">
               <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
             </div>
             <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
           </div>
-          <div class="col-lg-12 col-xl-4 px-5">
+          <div class="col-12 col-xl-4 px-5">
             <h3 class="font-weight-bold pb-4">Garaże podziemne i piętrowe</h3>
             <div class="main-content-border">
               <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
