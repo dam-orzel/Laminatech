@@ -261,7 +261,12 @@ body {
         padding-bottom: 500px;
         height        : 100%;
     }
+    .d-lg-none {
+        margin-top: 100px;
+
+    }
 }
+
 
 .content-advantages-border {
     font-weight: bold;
@@ -295,6 +300,42 @@ body {
         content      : '';
         border-bottom: 4px solid $border-dh;
     }
+    @include breakpoint($dev-md) {
+        width: 80%;
+        margin: auto;
+    }
+    @include breakpoint($dev-sm) {
+        width: 90%;
+        margin: auto;
+            h3 {
+                font-size: 24px;
+                &::after {
+                    right         : 8%;
+                }
+            }
+
+    }
+    @include breakpoint($dev-xs) {
+        width: 90%;
+        margin: auto;
+            h3 {
+                font-size: 22px;
+                &::after {
+                    right         : 9%;
+                }
+            }
+    }
+    @media (max-width: 350px) {
+        width: 110%;
+        margin: auto;
+            h3 {
+                font-size: 22px;
+                &::after {
+                    right         : 18%;
+                }
+            }
+
+    }
 }
 
 .adva-content {
@@ -312,18 +353,49 @@ body {
         li {
             margin-bottom: 39px;
             font-weight  : bold;
+            @media (max-width: 450px) {
+                margin-bottom: 46.5px;
+                font-size: 12px;
+                margin-left: 10px;
+
+            }
+            @media (max-width: 350px) {
+                margin-bottom: 50.5px;
+                font-size: 10px;
+                margin-left: 20px;
+
+            }
         }
+    }
+    @include breakpoint($dev-md) {
+        margin-left: 10%;
+
+    }
+    @include breakpoint($dev-sm) {
+        margin-left: 7%;
+
+    }
+    @include breakpoint($dev-xs) {
+        margin-left: 7%;
+    }
+    @media (max-width: 450px) {
+        margin-left: 0%;
+
+    }
+    @media (max-width: 350px) {
+        margin-left: -5%;
+
     }
 }
 
 .image-man-box {
-    margin-left  : 0;
+    margin-left  : 20px;
     margin-bottom: 100px;
     position     : relative;
 
     .image-man {
-        width : 460px;
-        height: 460px;
+        width : 85%;
+        height: auto;
     }
 
     &::after {
@@ -342,64 +414,20 @@ body {
 @include breakpoint($dev-lg) {
     .image-man-box {
         margin-left: 50px;
-
         .image-man {
-            width : 400px;
-            height: 400px;
-        }
-        &::after {
-            left          : 2%;
+            width : 380px;
+            height: 380px;
         }
     }
 }
 @include breakpoint($dev-xl) {
     .image-man-box {
         margin-left: 50px;
-        .image-man {
-            width : 400px;
-            height: 400px;
-        }
-        &::after {
-            left          : 2%;
-        }
     }
 }
-@include breakpoint($dev-md) {
-    .image-man-box {
-        margin-left  : 50px;
-
-        .image-man {
-            width : 560px;
-        }
-    }
-}
-
-@include breakpoint($dev-xs) {
-    .image-man-box {
-
-        .image-man {
-            width : 360px;
-            height: 360px;
-        }
-    }
-}
-
-@media (max-width: 450px) {
-    .image-man-box {
-
-        .image-man {
-            width : 260px;
-            height: 260px;
-        }
-    }
-}
-
 @media (max-width: 350px) {
     .image-man-box {
-    margin-left: -40px;
-        .image-man {
-            width : 250px;
-            height: 250px;
-        }
+        margin-left: 0px;
     }
+
 }
