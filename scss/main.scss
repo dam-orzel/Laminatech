@@ -252,6 +252,7 @@ body {
 ///////                 "Zalety" systemowe            ///////
 ///////
 /////////////////////////////////////////////////////////////
+// Marginesy i odstępy sekcji
 
 #system-advantages {
     .d-lg-block,
@@ -261,21 +262,21 @@ body {
         padding-bottom: 500px;
         height        : 100%;
     }
+
     .d-lg-none {
         margin-top: 100px;
-
     }
 }
-
+// Style Nagłówka
 
 .content-advantages-border {
     font-weight: bold;
     position   : relative;
-
+    // Nagłówek
     h3 {
         position   : relative;
         font-weight: bold;
-
+        // Linia pod Nagłówkiem
         &::after {
             content       : '';
             position      : absolute;
@@ -288,7 +289,7 @@ body {
             border-bottom : 2px solid $border-d;
         }
     }
-
+    // Niebieska linia na linii szarej
     &::after {
         position     : absolute;
         z-index      : 0;
@@ -300,48 +301,49 @@ body {
         content      : '';
         border-bottom: 4px solid $border-dh;
     }
+    // Położenie i wielkośc nagłówka względem strony
     @include breakpoint($dev-md) {
-        width: 80%;
+        width : 80%;
         margin: auto;
     }
     @include breakpoint($dev-sm) {
-        width: 90%;
+        width : 90%;
         margin: auto;
-            h3 {
-                font-size: 24px;
-                &::after {
-                    right         : 8%;
-                }
+        h3 {
+            font-size: 24px;
+            &::after {
+                right: 8%;
             }
-
+        }
     }
     @include breakpoint($dev-xs) {
-        width: 100%;
-        margin: auto;
-            h3 {
-                font-size: 22px;
-                &::after {
-                    right         : 9%;
-                }
+        width : 100%;
+        margin: auto auto auto -10px;
+        h3 {
+            font-size: 22px;
+            &::after {
+                right: 9%;
             }
+        }
     }
     @media (max-width: 350px) {
-        width: 110%;
+        width : 110%;
         margin: auto;
-            h3 {
-                font-size: 22px;
-                &::after {
-                    right         : 18%;
-                }
-            }
 
+        h3 {
+            font-size: 22px;
+
+            &::after {
+                right: 18%;
+            }
+        }
     }
 }
-
+// Lista zalet z grafiką
 .adva-content {
     position  : relative;
     max-height: 500px;
-
+    // Lista zalet - style całej listy
     .adva-list {
         position  : absolute;
         top       : 33%;
@@ -349,55 +351,44 @@ body {
         right     : 0;
         bottom    : 100px;
         list-style: none;
-
+        // Lista zalet - style poszczególnych komórek
         li {
             margin-bottom: 39px;
             font-weight  : bold;
             @media (max-width: 450px) {
                 margin-bottom: 46.5px;
-                font-size: 12px;
-                margin-left: 10px;
-
+                font-size    : 12px;
+                margin-left  : 10px;
             }
             @media (max-width: 350px) {
                 margin-bottom: 50.5px;
-                font-size: 10px;
-                margin-left: 20px;
-
+                font-size    : 10px;
+                margin-left  : 20px;
             }
         }
     }
+    // Marginesy położenia listy wraz z grafiką względem Nagłówka
     @include breakpoint($dev-md) {
         margin-left: 10%;
-
     }
     @include breakpoint($dev-sm) {
         margin-left: 7%;
-
     }
     @include breakpoint($dev-xs) {
-        margin-left: 7%;
-    }
-    @media (max-width: 450px) {
-        margin-left: 0%;
-
-    }
-    @media (max-width: 350px) {
-        margin-left: -5%;
-
+        margin-left: -10%;
     }
 }
-
+//Zdjęcie po prawej stronie (mężcyzna)
 .image-man-box {
-    margin-left  : 0px;
+    margin-left  : 0;
     margin-bottom: 100px;
     position     : relative;
-
+    // Style zdjęcia
     .image-man {
         width : 85%;
         height: auto;
     }
-
+    // Niebieska kreska pod zdjęciem
     &::after {
         content       : '';
         position      : absolute;
@@ -410,10 +401,11 @@ body {
         border-bottom : 20px solid $border-dh;
     }
 }
-
+// Wielkośc i położenie zdjęcia względem sekcji
 @include breakpoint($dev-lg) {
     .image-man-box {
         margin-left: 50px;
+
         .image-man {
             width : 380px;
             height: 380px;
@@ -427,7 +419,6 @@ body {
 }
 @media (max-width: 350px) {
     .image-man-box {
-        margin-left: 0px;
+        margin-left: 0;
     }
-
 }
