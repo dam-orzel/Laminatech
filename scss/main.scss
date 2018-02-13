@@ -3,13 +3,13 @@
 ///////                 Imports                 ///////
 ///////
 /////////////////////////////////////////////////////////////
-@import "../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss"; /////////////////////////////////////////////////////////////
+@import '../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss'; /////////////////////////////////////////////////////////////
 ///////
 ///////                 Style wielokrotne             ///////
 ///////
 /////////////////////////////////////////////////////////////
 $body-color: rgb(251, 251, 251);
-$border-d: rgba(77, 77, 77, 0.60);
+$border-d: rgba(77, 77, 77, .60);
 $border-dh: rgb(47, 102, 176);
 $dev-xs: max-width 575px;
 $dev-sm: 576px 767px;
@@ -20,420 +20,386 @@ $dev-xl: min-width 1200px; /////////////////////////////////////////////////////
 ///////                 Style Ogólne                  ///////
 ///////
 /////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+///////
+///////                 Style Główne                  ///////
+///////
+/////////////////////////////////////////////////////////////
 
 body {
-  background: $body-color;
-  font-family: 'Lora', serif;
-  height: 100%;
-  width: 100%;
+    font-family: 'Lora', serif;
+    width      : 100%;
+    height     : 100%;
+    background : $body-color;
 }
+/////////////////////////////////////////////////////////////
+///////
+///////                 Nawigacja                     ///////
+///////
+/////////////////////////////////////////////////////////////
 
 .nav-main-option {
-  background: $body-color;
-  margin-top: 2em;
+    margin-top: 2em;
+    background: $body-color;
 }
 
 .logo-nav {
-  @media (max-width: 360px) {
-    width: 200px;
-    margin-top: 5px;
-    margin-left: -10px;
-  }
+    @media (max-width: 360px) {
+        width      : 200px;
+        margin-top : 5px;
+        margin-left: -10px;
+    }
 }
 
 .container .navbar-menu-option li {
-  font-weight: bold;
-  font-size: 0.8em;
-  padding: 0 10px 18px;
-  margin-left: 30px;
-  text-transform: uppercase;
-  border-bottom: 2px solid $border-d;
-  -webkit-box-shadow: 0 5px 3px -5px rgba(0,0,0,0.20);
-  -moz-box-shadow: 0 5px 3px -5px rgba(0,0,0,0.20);
-  box-shadow: 0 5px 3px -5px rgba(0,0,0,0.20);
+    font-size         : 0.8em;
+    font-weight       : bold;
+    margin-left       : 30px;
+    padding           : 0 10px 18px;
+    text-transform    : uppercase;
+    border-bottom     : 2px solid $border-d;
+    -webkit-box-shadow: 0 5px 3px -5px rgba(0,0,0,.20);
+    -moz-box-shadow   : 0 5px 3px -5px rgba(0,0,0,.20);
+    box-shadow        : 0 5px 3px -5px rgba(0,0,0,.20);
+    @include breakpoint($dev-xl) {
+        font-size: 0.8em;
+    }
 
-  &:hover {
-    padding: 0 10px 12px;
-    border-bottom: 4px solid $border-dh;
-    transition: border-bottom 0.4s;
-  }
-  @include breakpoint($dev-xl) {
-    font-size: 0.8em;
-  }
+    &:hover {
+        padding      : 0 10px 12px;
+        transition   : border-bottom 0.4s;
+        border-bottom: 4px solid $border-dh;
+    }
+}
+@media (max-width: 62em) {
+    .navbar-nav {
+        padding-top : 0.425rem;
+        padding-left: 0.75rem;
+    }
+
+    .navbar-nav .nav-item {
+        float: none;
+    }
+
+    .navbar-brand {}
+
+    .navbar-brand,
+    .navbar-nav .nav-item {
+        display: block;
+    }
+
+    .navbar-nav .nav-item + .nav-item {
+        margin-left: 0;
+    }
+
+    .dropdown-menu {
+        position: relative;
+        float   : none;
+    }
 }
 
-.dropdown-bg {
-  background: $body-color;
-}
-
+.dropdown-bg,
 .jumbotron {
-  background: $body-color;
+    background: $body-color;
 }
+/////////////////////////////////////////////////////////////
+///////
+///////                 Header                        ///////
+///////
+/////////////////////////////////////////////////////////////
 
 .header-content {
-  width: 100%;
-  height: 500px;
-  margin: 0;
-  background-image: url("https://images.pexels.com/photos/315752/pexels-photo-315752.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-  background-position: center;
-  background-repeat: no-repeat;
-  animation: breath 20s linear infinite;
-  @include breakpoint($dev-xs) {
-    width: 100%;
-  }
-}
-// @-webkit-keyframes breath {
-//   0% {
-//     background-size: 140% auto;
-//   }
-//
-//   50% {
-//     background-size: 170% auto;
-//   }
-//
-//   100% {
-//     background-size: 140% auto;
-//   }
-// }
-
-.main-content-text {
-  font-size: 13px;
-}
-
-.main-content-border {
-  padding-top: 20px;
-  border-top: 2px solid $border-d;
-  position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -4px;
-    left: 0;
-    right: 60%;
-    bottom: 0;
-    border-width: 20px;
-    border-top: 4px solid $border-dh;
-  }
+    width              : 100%;
+    height             : 500px;
+    margin             : 0;
+    animation          : breath 20s linear infinite;
+    background-image   : url("https://images.pexels.com/photos/315752/pexels-photo-315752.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat  : no-repeat;
+    background-position: center;
+    @include breakpoint($dev-xs) {
+        width: 100%;
+    }
 }
 
 #header .header-content {
-  padding: 45px;
-  width: 100%;
-  height: 100%;
-  @include breakpoint($dev-xs) {
-    padding: 15px 15px 20px;
-    margin-bottom: 50px;
-  }
-  @include breakpoint($dev-sm) {
-    margin-bottom: 50px;
-  }
+    width  : 100%;
+    height : 100%;
+    padding: 45px;
+    @include breakpoint($dev-xs) {
+        margin-bottom: 50px;
+        padding      : 15px 15px 20px;
+    }
+    @include breakpoint($dev-sm) {
+        margin-bottom: 50px;
+    }
 }
 
 #header .header-main-content {
-  background: $body-color;
-  min-height: 90%;
-  -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-  -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-  box-shadow: 5px 5px 1px 2px $border-dh;
-  @include breakpoint($dev-xl) {
-    max-width: 40%;
-  }
-  @include breakpoint($dev-lg) {
-    max-width: 50%;
-  }
-  @include breakpoint($dev-md) {
-    max-width: 70%;
-  }
-  @include breakpoint($dev-sm) {
-    max-width: 100%;
-  }
-  @include breakpoint($dev-xs) {
-    max-width: 100%;
-  }
-
-  h1 {
-    padding: 25px;
-    font-size: 26px;
-    font-weight: bold;
-    position: relative;
-    @include breakpoint($dev-xs) {
-      padding: 15px;
-      font-size: 24px;
+    min-height        : 90%;
+    background        : $body-color;
+    -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
+    -moz-box-shadow   : 5px 5px 1px 2px $border-dh;
+    box-shadow        : 5px 5px 1px 2px $border-dh;
+    @include breakpoint($dev-xl) {
+        max-width: 40%;
     }
+    @include breakpoint($dev-lg) {
+        max-width: 50%;
+    }
+    @include breakpoint($dev-md) {
+        max-width: 70%;
+    }
+    @include breakpoint($dev-sm) {
+        max-width: 100%;
+    }
+    @include breakpoint($dev-xs) {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size  : 26px;
+        font-weight: bold;
+        position   : relative;
+        padding    : 25px;
+        @include breakpoint($dev-xs) {
+            font-size: 24px;
+            padding  : 15px;
+        }
+
+        &::after {
+            position   : absolute;
+            z-index    : 0;
+            top        : 100%;
+            right      : 50%;
+            bottom     : 0;
+            left       : 0;
+            margin-left: 25px;
+            content    : '';
+            border-top : 2px solid $border-dh;
+            @include breakpoint($dev-xs) {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .header-text-container {
+        padding: 25px;
+        @include breakpoint($dev-xs) {
+            padding: 15px;
+        }
+    }
+}
+/////////////////////////////////////////////////////////////
+///////
+///////                 Sekcja z artykułami           ///////
+///////
+/////////////////////////////////////////////////////////////
+
+#main-content {
+    h3 {
+        font-size: 26px;
+        @include breakpoint($dev-xl) {
+            font-size: 32px;
+        }
+    }
+
+    a {
+        margin-top: 40px;
+    }
+}
+
+.main-content-text {
+    font-size: 13px;
+}
+
+.main-content-border {
+    position   : relative;
+    top        : 10%;
+    right      : 60%;
+    bottom     : 0;
+    left       : 0;
+    padding-top: 20px;
+    border-top : 2px solid $border-d;
 
     &::after {
-      content: "";
-      position: absolute;
-      z-index: 0;
-      top: 100%;
-      left: 0;
-      right: 50%;
-      bottom: 0;
-      border-top: 2px solid $border-dh;
-      margin-left: 25px;
-      @include breakpoint($dev-xs) {
-        margin-left: 15px;
-      }
+        position    : absolute;
+        z-index     : -1;
+        top         : -4px;
+        right       : 60%;
+        bottom      : 0;
+        left        : 0;
+        content     : '';
+        border-width: 20px;
+        border-top  : 4px solid $border-dh;
     }
-  }
-
-  .header-text-container {
-    padding: 25px;
-    @include breakpoint($dev-xs) {
-      padding: 15px;
-    }
-  }
-}
-
-.header-text {}
-// #header .header-content {
-//   position: relative;
-//   .d-xl-block {
-//     position: absolute;
-//     top: 15%;
-//     bottom: 30%;
-//     left: 7%;
-//     right: 30%;
-//     width: 35%;
-//     height: 70%;
-//     background: $body-color;
-//     -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-//     -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-//     box-shadow: 5px 5px 1px 2px $border-dh;
-//
-//     h1 {
-//       font-size: 26px;
-//       line-height: 35px;
-//       font-weight: bold;
-//
-//
-//     }
-//   }
-//
-//   .d-lg-block {
-//     position: absolute;
-//     top: 15%;
-//     bottom: 30%;
-//     left: 7%;
-//     right: 30%;
-//     width: 45%;
-//     height: 70%;
-//     background: $body-color;
-//     -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-//     -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-//     box-shadow: 5px 5px 1px 2px $border-dh;
-//
-//     h1 {
-//       font-size: 26px;
-//       line-height: 35px;
-//       font-weight: bold;
-//
-//       &::after {
-//         content: "";
-//         position: absolute;
-//         z-index: 0;
-//         top: 33%;
-//         left: 9%;
-//         right: 50%;
-//         bottom: 0;
-//         border-width: 20px;
-//         border-top: 2px solid $border-dh;
-//       }
-//     }
-//   }
-//
-//   .d-md-block {
-//     position: absolute;
-//     top: 15%;
-//     bottom: 30%;
-//     left: 17.5%;
-//     right: 300px;
-//     width: 500px;
-//     height: 70%;
-//     background: $body-color;
-//     -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-//     -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-//     box-shadow: 5px 5px 1px 2px $border-dh;
-//
-//     h1 {
-//       font-size: 26px;
-//       line-height: 35px;
-//       font-weight: bold;
-//
-//       &::after {
-//         content: "";
-//         position: absolute;
-//         z-index: 0;
-//         top: 33%;
-//         left: 8%;
-//         right: 50%;
-//         bottom: 0;
-//         border-width: 20px;
-//         border-top: 2px solid $border-dh;
-//       }
-//     }
-//   }
-//
-//   .d-md-none {
-//     position: absolute;
-//     top: 15%;
-//     bottom: 30%;
-//     left: 4%;
-//     right: 300px;
-//     width: 370px;
-//     height: 70%;
-//     background: $body-color;
-//     -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-//     -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-//     box-shadow: 5px 5px 1px 2px $border-dh;
-//
-//     h1 {
-//       font-size: 26px;
-//       line-height: 35px;
-//       font-weight: bold;
-//
-//       &::after {
-//         content: "";
-//         position: absolute;
-//         z-index: 0;
-//         top: 33%;
-//         left: 10%;
-//         right: 50%;
-//         bottom: 0;
-//         border-width: 20px;
-//         border-top: 2px solid $border-dh;
-//       }
-//     }
-//   }
-//
-//   .d-sm-none {
-//     position: absolute;
-//     top: 10%;
-//     bottom: 30%;
-//     left: 2%;
-//     right: 350px;
-//     width: 340px;
-//     height: 80%;
-//     background: $body-color;
-//     -webkit-box-shadow: 5px 5px 1px 2px $border-dh;
-//     -moz-box-shadow: 5px 5px 1px 2px $border-dh;
-//     box-shadow: 5px 5px 1px 2px $border-dh;
-//
-//     h1 {
-//       font-size: 22px;
-//       line-height: 35px;
-//       font-weight: bold;
-//
-//       &::after {
-//         content: "";
-//         position: absolute;
-//         z-index: 0;
-//         top: 28%;
-//         left: 10%;
-//         right: 50%;
-//         bottom: 0;
-//         border-width: 20px;
-//         border-top: 2px solid $border-dh;
-//         @media (max-width: 360px) {
-//           left: 13%;
-//         }
-//         @media (min-width: 360px) and (max-width: 400px) {
-//           left: 12%;
-//         }
-//       }
-//     }
-//     @media (min-width: 400px) and (max-width: 500px) {
-//       width: 390px;
-//     }
-//     @media (max-width: 360px) {
-//       width: 300px;
-//       height: 85%;
-//       top: 7%;
-//     }
-//   }
-// }
-// #main-content .col-md-12:first-child h3:first-child {
-//   margin-bottom: 0px;
-//   margin-top: 14px;
-//
-// }
-
-.carousel-control-next {
-  color: red;
-}
-@media (max-width: 62em) {
-  .navbar-nav {
-    padding-top: 0.425rem;
-    padding-left: 0.75rem;
-  }
-
-  .navbar-nav .nav-item {
-    float: none;
-  }
-
-  .navbar-brand {}
-
-  .navbar-brand,
-  .navbar-nav .nav-item {
-    display: block;
-  }
-
-  .navbar-nav .nav-item + .nav-item {
-    margin-left: 0;
-  }
-
-  .dropdown-menu {
-    position: relative;
-    float: none;
-  }
 }
 
 .fa-angle-left,
 .fa-angle-right {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .fa-angle-right {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
-.fa-angle-left {}
+.carousel-item-css {
+    width : 60%;
+    margin: auto;
+}
+/////////////////////////////////////////////////////////////
+///////
+///////                 "Zalety" systemowe            ///////
+///////
+/////////////////////////////////////////////////////////////
 
 #system-advantages {
-  .d-lg-block {
-    margin-left: 100px;
-    margin-top: 200px;
-    padding-bottom: 500px;
-  }
+    .d-lg-block,
+    .d-lg-none {
+        margin-top    : 200px;
+        margin-left   : 50px;
+        padding-bottom: 500px;
+        height        : 100%;
+    }
 }
 
 .content-advantages-border {
-  font-weight: bold;
-  padding-bottom: 10px;
-  position: relative;
-  z-index: 0;
-  top: 30%;
-  left: 0;
-  right: 30%;
-  bottom: 0;
-  width: 39.3%;
-  border-bottom: 2px solid $border-d;
-
-  h3 {
     font-weight: bold;
-  }
+    position   : relative;
 
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 0;
-    top: 20%;
-    left: 0;
-    right: 30%;
-    bottom: 0;
-    width: 30%;
-    border-bottom: 4px solid $border-dh;
-  }
+    h3 {
+        position   : relative;
+        font-weight: bold;
+
+        &::after {
+            content       : '';
+            position      : absolute;
+            z-index       : 1;
+            top           : 30%;
+            right         : 18%;
+            bottom        : -30%;
+            left          : 0;
+            padding-bottom: 10px;
+            border-bottom : 2px solid $border-d;
+        }
+    }
+
+    &::after {
+        position     : absolute;
+        z-index      : 0;
+        top          : 25%;
+        right        : 30%;
+        bottom       : -32%;
+        left         : 0;
+        width        : 30%;
+        content      : '';
+        border-bottom: 4px solid $border-dh;
+    }
+}
+
+.adva-content {
+    position  : relative;
+    max-height: 500px;
+
+    .adva-list {
+        position  : absolute;
+        top       : 33%;
+        left      : 8%;
+        right     : 0;
+        bottom    : 100px;
+        list-style: none;
+
+        li {
+            margin-bottom: 39px;
+            font-weight  : bold;
+        }
+    }
+}
+
+.image-man-box {
+    margin-left  : 0;
+    margin-bottom: 100px;
+    position     : relative;
+
+    .image-man {
+        width : 460px;
+        height: 460px;
+    }
+
+    &::after {
+        content       : '';
+        position      : absolute;
+        z-index       : 1;
+        top           : 0;
+        right         : 50%;
+        bottom        : -2%;
+        left          : 1%;
+        padding-bottom: 10px;
+        border-bottom : 20px solid $border-dh;
+    }
+}
+
+@include breakpoint($dev-lg) {
+    .image-man-box {
+        margin-left: 50px;
+
+        .image-man {
+            width : 400px;
+            height: 400px;
+        }
+        &::after {
+            left          : 2%;
+        }
+    }
+}
+@include breakpoint($dev-xl) {
+    .image-man-box {
+        margin-left: 50px;
+        .image-man {
+            width : 400px;
+            height: 400px;
+        }
+        &::after {
+            left          : 2%;
+        }
+    }
+}
+@include breakpoint($dev-md) {
+    .image-man-box {
+        margin-left  : 50px;
+
+        .image-man {
+            width : 560px;
+        }
+    }
+}
+
+@include breakpoint($dev-xs) {
+    .image-man-box {
+
+        .image-man {
+            width : 360px;
+            height: 360px;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .image-man-box {
+
+        .image-man {
+            width : 260px;
+            height: 260px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .image-man-box {
+    margin-left: -40px;
+        .image-man {
+            width : 250px;
+            height: 250px;
+        }
+    }
 }
