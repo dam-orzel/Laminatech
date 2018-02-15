@@ -1,5 +1,23 @@
 $(document).ready(function(){
-      $('.lol').slick({
-        autoplay: true,
+      $('.type-slider').slick({
+          autoplay: true,
+          autoplaySpeed: 10000,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrow: true,
+          dots: true,
       });
     });
+
+    $(document).ready(function(){
+          $('.type-slider-tablet').slick({
+              autoplay: true,
+              autoplaySpeed: 10000,
+              infinite: true,
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              arrow: true,
+              dots: true,
+          });
+        });
