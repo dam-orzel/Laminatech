@@ -1,9 +1,4 @@
-/////////////////////////////////////////////////////////////
-///////
-///////                 Imports                 ///////
-///////
-/////////////////////////////////////////////////////////////
-@import '../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+@import '../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
 /////////////////////////////////////////////////////////////
 ///////
 ///////                 Style wielokrotne             ///////
@@ -17,7 +12,8 @@ $dev-xs: max-width 575px;
 $dev-sm: 576px 767px;
 $dev-md: 768px 991px;
 $dev-lg: 992px 1199px;
-$dev-xl: min-width 1200px; /////////////////////////////////////////////////////////////
+$dev-xl: min-width 1200px;
+////////////////////////////////////////////////////////////
 ///////
 ///////                 Style Ogólne                  ///////
 ///////
@@ -33,84 +29,6 @@ body {
     width      : 100%;
     height     : 100%;
     background : $body-color;
-}
-/////////////////////////////////////////////////////////////
-///////
-///////                 Nawigacja                     ///////
-///////
-/////////////////////////////////////////////////////////////
-
-.nav-main-option {
-    margin-top: 2em;
-    background: $body-color;
-}
-
-.logo-nav {
-    @media (max-width: 360px) {
-        width      : 200px;
-        margin-top : 5px;
-        margin-left: -10px;
-    }
-}
-
-.dropdown-item {
-    text-transform: capitalize;
-}
-
-.dropdown-menu {
-    background: $body-color;
-}
-
-.container .navbar-menu-option li {
-    font-size         : 0.8em;
-    font-weight       : bold;
-    margin-left       : 30px;
-    padding           : 0 10px 18px;
-    text-transform    : uppercase;
-    border-bottom     : 2px solid $border-d;
-    -webkit-box-shadow: 0 5px 3px -5px rgba(0,0,0,.20);
-    -moz-box-shadow   : 0 5px 3px -5px rgba(0,0,0,.20);
-    box-shadow        : 0 5px 3px -5px rgba(0,0,0,.20);
-    @include breakpoint($dev-xl) {
-        font-size: 0.8em;
-    }
-
-    &:hover {
-        padding      : 0 10px 12px;
-        transition   : border-bottom 0.4s;
-        border-bottom: 4px solid $border-dh;
-    }
-}
-@media (max-width: 62em) {
-    .navbar-nav {
-        padding-top : 0.425rem;
-        padding-left: 0.75rem;
-    }
-
-    .navbar-nav .nav-item {
-        float: none;
-    }
-
-    .navbar-brand {}
-
-    .navbar-brand,
-    .navbar-nav .nav-item {
-        display: block;
-    }
-
-    .navbar-nav .nav-item + .nav-item {
-        margin-left: 0;
-    }
-
-    .dropdown-menu {
-        position: relative;
-        float   : none;
-    }
-}
-
-.dropdown-bg,
-.jumbotron {
-    background: $body-color;
 }
 /////////////////////////////////////////////////////////////
 ///////
@@ -470,6 +388,9 @@ body {
     border-radius: 0%;
 }
 
+#type .col-3 button {
+    cursor: pointer;
+}
 
 .slider-item {
 margin: auto;
@@ -485,108 +406,6 @@ margin: auto;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////////////////////////////////////////////
-///////
-///////                 Footer                        ///////
-///////
-/////////////////////////////////////////////////////////////
-
-#footer  {
-    background: rgb(238, 238, 238);
-    margin-top: 120px;
-    padding-bottom: 40px;
-    width: 100%;
-    h5 {
-        font-weight: bold;
-        margin-top: 50px;
-        padding-bottom: 10px;
-        border-bottom : 2px solid $border-d;
-        width: 100%;
-        margin-bottom: 20px;
-        @media (max-width: 990px) {
-            width: 50%;
-        }
-    }
-    ul {
-        li {
-            font-size: 14px;
-            line-height:35px;
-            list-style: none;
-
-            @include breakpoint($dev-lg) {
-                margin-left: -18%;
-            }
-            @include breakpoint($dev-xl) {
-                margin-left: -18%;
-            }
-            @include breakpoint($dev-md) {
-                margin-left: -6%;
-            }
-            @media (max-width: 400px){
-                margin-left:-15%;
-            }
-            // margin-left:-11%;
-            a {
-                color: black;
-                text-decoration: none;
-            }
-        }
-    }
-}
-
-.footer-contact {
-    ul {
-        li:nth-child(8) a, li:nth-child(4) a{
-            color: black !important;
-            text-decoration: underline !important;
-        }
-    }
-}
-
-.footer-download {
-    ul {
-        li {
-            line-height: 22px !important;
-        }
-        li:nth-child(2) {
-            margin-bottom: 20px;
-        }
-    }
-}
-
-#footer .col-12 {
-    text-align: left;
-
-    @include breakpoint($dev-lg) {
-        text-align: left;
-        margin: 0;
-    }
-    @include breakpoint($dev-xl) {
-        text-align: left;
-        margin: 0;
-    }
-    @include breakpoint($dev-md) {
-
-    }
-    @media (max-width: 400px) {
-        margin-left: 0;
-
-    }
-}
-
 /////////////////////////////////////////////////////////////
 ///////
 ///////                 Copyright                     ///////
@@ -596,7 +415,7 @@ margin: auto;
 .copyright {
 
     background: rgb(0, 33, 54);
-    padding: 10px 0 2px 0;
+    padding: 10px 0px 2px 0;
     h5 {
         color: rgb(203, 197, 197);
         font-size: 18px;

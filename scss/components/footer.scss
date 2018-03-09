@@ -1,0 +1,109 @@
+/////////////////////////////////////////////////////////////
+///////
+///////                 Imports                 ///////
+///////
+/////////////////////////////////////////////////////////////
+@import '../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+/////////////////////////////////////////////////////////////
+///////
+///////                 Colors                ///////
+///////
+/////////////////////////////////////////////////////////////
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, .60);
+$border-dh: rgb(0, 76, 147);
+$border-dhl: rgb(26, 128, 224);
+$dev-xs: max-width 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Footer                        ///////
+///////
+/////////////////////////////////////////////////////////////
+
+#footer  {
+    background: rgb(238, 238, 238);
+    margin-top: 120px;
+    padding-bottom: 40px;
+    width: 100%;
+    h5 {
+        font-weight: bold;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        border-bottom : 2px solid $border-d;
+        width: 100%;
+        margin-bottom: 20px;
+        @media (max-width: 990px) {
+            width: 50%;
+        }
+    }
+    ul {
+        li {
+            font-size: 14px;
+            line-height:35px;
+            list-style: none;
+
+            @include breakpoint($dev-lg) {
+                margin-left: -18%;
+            }
+            @include breakpoint($dev-xl) {
+                margin-left: -18%;
+            }
+            @include breakpoint($dev-md) {
+                margin-left: -6%;
+            }
+            @media (max-width: 400px){
+                margin-left:-15%;
+            }
+            // margin-left:-11%;
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.footer-contact {
+    ul {
+        li:nth-child(8) a, li:nth-child(4) a{
+            color: black !important;
+            text-decoration: underline !important;
+        }
+    }
+}
+
+.footer-download {
+    ul {
+        li {
+            line-height: 22px !important;
+        }
+        li:nth-child(2) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+#footer .col-12 {
+    text-align: left;
+
+    @include breakpoint($dev-lg) {
+        text-align: left;
+        margin: 0;
+    }
+    @include breakpoint($dev-xl) {
+        text-align: left;
+        margin: 0;
+    }
+    @include breakpoint($dev-md) {
+
+    }
+    @media (max-width: 400px) {
+        margin-left: 0;
+
+    }
+}

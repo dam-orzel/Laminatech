@@ -1,0 +1,130 @@
+@import '../../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+/////////////////////////////////////////////////////////////
+///////
+///////                 Style wielokrotne             ///////
+///////
+/////////////////////////////////////////////////////////////
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, .60);
+$border-dh: rgb(0, 76, 147);
+$border-dhl: rgb(26, 128, 224);
+$dev-xs: max-width 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+
+.properties {
+    margin-top: 60px;
+
+}
+
+.properties-first-article {
+    background: rgb(225, 225, 226);
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.properties-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+}
+
+.properties-title-border {
+    padding-bottom: 5px;
+    border-bottom : 1px solid $border-d;
+    position: relative;
+    margin-bottom: 25px;
+        &::after {
+            content       : '';
+            position      : absolute;
+            z-index       : 1;
+            top           : 0;
+            right         : 70%;
+            bottom        : -2%;
+            left          : 0%;
+            padding-bottom: 10px;
+            border-bottom : 3px solid $border-dh;
+        }
+}
+
+.image-box {
+    position:relative;
+    .img-tir {
+        @include breakpoint($dev-xl){
+            width: 100%;
+            height: 90%;
+        }
+        @include breakpoint($dev-lg){
+            width: 100%;
+            height: 100%;
+        }
+        @include breakpoint($dev-md){
+            padding-top: 80px;
+            width: 100%;
+            height: 75%;
+        }
+    }
+        &::after {
+            content       : '';
+            position      : absolute;
+            z-index       : 1;
+            top           : 0;
+            right         : 50%;
+            bottom        : 8%;
+            left          : 1%;
+            padding-bottom: 10px;
+            border-bottom : 20px solid $border-dhl;
+            @include breakpoint($dev-lg){
+                bottom        : -3%;
+            }
+            @include breakpoint($dev-md){
+                bottom        : 24%;
+                left: 0%;
+            }
+        }
+}
+
+.properties-first-article-title {
+    font-weight: bold;
+}
+@include breakpoint($dev-xl){
+    .properties-first-article .row .col-6:first-child{
+    padding-left: 10%;
+    padding-right: 7%;
+    line-height: 30px;
+    }
+
+    .properties-first-article .row .col-6:last-child{
+    padding-right: 10%;
+    }
+}
+
+@include breakpoint($dev-lg){
+    .properties-first-article .row .col-6:first-child{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 17px;
+    }
+
+    .properties-first-article .row .col-6:last-child{
+    padding-right: 5%;
+    }
+}
+
+@include breakpoint($dev-md){
+    .properties-first-article .row .col-12:first-child{
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 17px;
+    }
+
+    .properties-first-article .row .col-12:last-child{
+    margin: 0;
+    padding: 0;
+    }
+}
