@@ -68,6 +68,15 @@ $dev-xl: min-width 1200px;
             width: 100%;
             height: 75%;
         }
+        @include breakpoint($dev-md){
+            padding-top: 80px;
+            width: 100%;
+            height: 75%;
+        }
+        @include breakpoint($dev-xs){
+            width: 100%;
+            height: 75%;
+        }
     }
         &::after {
             content       : '';
@@ -84,6 +93,10 @@ $dev-xl: min-width 1200px;
             }
             @include breakpoint($dev-md){
                 bottom        : 24%;
+                left: 0%;
+            }
+            @include breakpoint($dev-xs){
+                bottom        : 22%;
                 left: 0%;
             }
         }
@@ -126,5 +139,19 @@ $dev-xl: min-width 1200px;
     .properties-first-article .row .col-12:last-child{
     margin: 0;
     padding: 0;
+    }
+}
+
+@include breakpoint($dev-xs){
+    .properties-first-article .row .col-12:first-child{
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 17px;
+    margin-bottom: 10%;
+    }
+
+    .properties-first-article .row .col-12:last-child{
+        margin: 0;
+        padding: 0;
     }
 }
