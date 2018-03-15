@@ -118,13 +118,24 @@ $dev-xl: min-width 1200px;
 
     }
 }
+@include breakpoint($dev-xs) {
+    #order-first {
+        order: 1;
+    }
 
-#order-first {
-    order: 1;
+    #order-last {
+        order: -1;
+    }
 }
 
-#order-last {
-    order: -1;
+@include breakpoint($dev-md) {
+    #order-first {
+        order: 1;
+    }
+
+    #order-last {
+        order: -1;
+    }
 }
 
 .image-box-second {
@@ -262,4 +273,73 @@ $dev-xl: min-width 1200px;
         margin : 0;
         padding: 0;
     }
+}
+
+.poli-graf {
+    background-image: url("../../../images/graph-bg.png");
+}
+
+.poli-graf-title {
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+    padding: 3% 0 5% 0;
+    text-align: center;
+}
+@include breakpoint($dev-xl){
+    .poli-graf-content {
+        line-height: 40px;
+    }
+    .poli-graf {
+        background-image: url("../../../images/graph-bg.png");
+        padding: 0 10% 0 10%;
+    }
+    .row-content {
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+}
+@include breakpoint($dev-lg){
+    .poli-graf-content {
+        line-height: 20px;
+    }
+    .poli-graf {
+        background-image: url("../../../images/graph-bg.png");
+        padding: 0 5% 0 5%;
+    }
+    .row-content {
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+
+@include breakpoint($dev-md){
+    .poli-graf-content {
+        line-height: 30px;
+    }
+    .poli-graf {
+        background-image: url("../../../images/graph-bg.png");
+        padding: 0 7% 0 7%;
+    }
+    .row-content {
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-top: 0;
+    }
+}
+@include breakpoint($dev-xs){
+    .poli-graf-content {
+        line-height: 25px;
+    }
+    .poli-graf {
+        background-image: url("../../../images/graph-bg.png");
+        padding: 0 7% 0 7%;
+    }
+    .row-content {
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 0;
+    }
+}
+.poli-graf-content {
+    color: rgba(235, 235, 235, 0.7);
 }
