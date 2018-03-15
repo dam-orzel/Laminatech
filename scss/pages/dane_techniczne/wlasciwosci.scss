@@ -275,6 +275,12 @@ $dev-xl: min-width 1200px;
     }
 }
 
+/////////////////////////////////////////////////////////////
+///////
+///////                 Polimerobeton                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
 .poli-graf {
     background-image: url("../../../images/graph-bg.png");
 }
@@ -290,7 +296,6 @@ $dev-xl: min-width 1200px;
         line-height: 40px;
     }
     .poli-graf {
-        background-image: url("../../../images/graph-bg.png");
         padding: 0 10% 0 10%;
     }
     .row-content {
@@ -303,7 +308,6 @@ $dev-xl: min-width 1200px;
         line-height: 20px;
     }
     .poli-graf {
-        background-image: url("../../../images/graph-bg.png");
         padding: 0 5% 0 5%;
     }
     .row-content {
@@ -317,7 +321,6 @@ $dev-xl: min-width 1200px;
         line-height: 30px;
     }
     .poli-graf {
-        background-image: url("../../../images/graph-bg.png");
         padding: 0 7% 0 7%;
     }
     .row-content {
@@ -331,7 +334,6 @@ $dev-xl: min-width 1200px;
         line-height: 25px;
     }
     .poli-graf {
-        background-image: url("../../../images/graph-bg.png");
         padding: 0 7% 0 7%;
     }
     .row-content {
@@ -342,4 +344,95 @@ $dev-xl: min-width 1200px;
 }
 .poli-graf-content {
     color: rgba(235, 235, 235, 0.7);
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Label                ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.poli-label {
+    @include breakpoint($dev-xl){
+    padding: 0 10% 0 10%;
+    }
+}
+
+.poli-label-title {
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom : 1px solid $border-d;
+    position      : relative;
+    margin-bottom : 10%;
+
+
+    &::after {
+        content       : '';
+        position      : absolute;
+        z-index       : 1;
+        top           : 0;
+        right         : 70%;
+        bottom        : -2%;
+        left          : 0;
+        padding-bottom: 10px;
+        border-bottom : 3px solid $border-dh;
+    }
+}
+
+.poli-label-table tr td{
+    padding: 7px;
+    font-size: 18px;
+
+}
+
+.poli-label-table tr:nth-child(odd) {
+    color: $border-dhl;
+}
+
+.poli-label-table tr:nth-child(even) {
+    background-color: $border-dhl;
+    width: 300px;
+    color: white;
+}
+
+.poli-label-table tr td:nth-child(4){
+
+}
+
+.poli-label-table tr td:first-child {
+    padding-left: 5%;
+    width: 100%;
+
+}
+
+.poli-label-table tr td:nth-child(2) {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+.poli-label-table tr td:nth-child(4) {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.poli-label-1 td:nth-child(2){
+    border: 5px solid $border-dhl;
+    border-bottom: none;
+}
+
+.poli-label-3 td:nth-child(2), .poli-label-5 td:nth-child(2){
+    border: 5px solid $border-dhl;
+    border-bottom: none;
+    border-top: none;
+}
+.poli-label-1 td:nth-child(4), .poli-label-3 td:nth-child(4), .poli-label-5 td:nth-child(4) {
+    background-color: $border-dh;
+    color: white;
 }
