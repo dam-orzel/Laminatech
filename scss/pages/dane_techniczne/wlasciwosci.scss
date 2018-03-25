@@ -387,7 +387,9 @@ $dev-xl: min-width 1200px;
 .poli-label-table tr td{
     padding: 7px;
     font-size: 18px;
-
+        @include breakpoint($dev-xs) {
+            font-size: 12px;
+        }
 }
 
 .poli-label-table tr:nth-child(odd) {
