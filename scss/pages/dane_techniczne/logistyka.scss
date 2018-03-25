@@ -1,0 +1,120 @@
+@import '../../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss'; /////////////////////////////////////////////////////////////
+///////
+///////                 Style wielokrotne             ///////
+///////
+/////////////////////////////////////////////////////////////
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, .60);
+$border-dh: rgb(0, 76, 147);
+$border-dhl: rgb(26, 128, 224);
+$dev-xss: max-width 400px;
+$dev-xs: max-width 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+/////////////////////////////////////////////////////////////
+///////
+///////                 Header                       ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.logistics-header {
+    position           : relative;
+    background         : linear-gradient(rgba(26, 128, 224, 0.7), rgba(19, 41, 61,1)), url("../../../images/logistyka-header.jpg");
+    background-position: center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    color              : white;
+    padding            : 5% 10%;
+    margin-top: 75px;
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    span {
+        display    : block;
+        line-height: 30px;
+        text-align : center;
+        color: rgba(255,255,255,0.7)
+    }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////           Ograniczenia Gabarytowe             ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.limitations {
+    margin-top: 75px;
+    background-color: #E8EDF2;
+    padding: 5%;
+}
+
+.limitations .col-md-7 h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.img-paleta {
+    @include breakpoint($dev-xs) {
+        margin-top: 50px;
+    }
+    @include breakpoint($dev-sm) {
+        margin-top: 50px;
+    }
+}
+
+.limitations-content {
+    margin-top: 5%;
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Koszt Wysyłki                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.shipping-cost {
+    margin-top: 75px;
+}
+
+.shipping-cost h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.shipping-cost-table {
+    @include breakpoint($dev-xs) {
+        font-size: 14px;
+    }
+}
+
+.first-row, .third-row {
+    color: white;
+    padding: 2%;
+    background: #1A80E0;
+        .col-2 span {
+            display: block;
+            font-weight: bold;
+            text-align: center;
+        }
+}
+
+.second-row {
+    color: #1A80E0;
+    padding: 2%;
+        .col-2 span {
+            display: block;
+            font-weight: bold;
+            text-align: center;
+        }
+}
