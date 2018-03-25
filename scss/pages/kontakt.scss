@@ -7,6 +7,7 @@ $body-color: rgb(251, 251, 251);
 $border-d: rgba(77, 77, 77, .60);
 $border-dh: rgb(0, 76, 147);
 $border-dhl: rgb(26, 128, 224);
+$dev-xss: max-width 400px;
 $dev-xs: max-width 575px;
 $dev-sm: 576px 767px;
 $dev-md: 768px 991px;
@@ -54,5 +55,118 @@ margin-top: 75px;
 
         div:nth-child(2) ul li:first-child {
             font-weight: bold;
+        }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 All Contacts                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.all-contacts .row {
+    color: white;
+    margin-top: 100px;
+    background-color: #1A80E0;
+    @include breakpoint($dev-xs) {
+        padding-top: 25%;
+    }
+    @include breakpoint($dev-md) {
+        padding-top: 20%;
+    }
+    @include breakpoint($dev-sm) {
+        padding-top: 20%;
+    }
+        .contact-item {
+            text-align: center;
+            text-transform: uppercase;
+            @include breakpoint($dev-md) {
+                margin-bottom: 50px;
+            }
+            @include breakpoint($dev-xs) {
+                margin-bottom: 50px;
+            }
+                h3 {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 35% 0 10% 0;
+                }
+                .contact-item-number{
+                    font-size: 16px;
+                    display: inline-block;
+                    font-weight: bold;
+                    padding: 4% 10% 4% 10%;
+                    margin-bottom: 15%;;
+                    background-color: #172f95;
+                    @include breakpoint($dev-lg) {
+                        font-size: 14px;
+                    }
+                }
+                .circle-icon {
+                    position: absolute;
+                    left: 26%;
+                    top: -30%;
+                    background-color: #1A80E0;
+                    padding: 7%;
+                    border: 10px solid white;
+                    border-radius: 50%;
+                    @include breakpoint ($dev-xs) {
+                        left: 32%;
+                        top: -20%;
+                    }
+                    @include breakpoint ($dev-md) {
+                        left: 30%;
+                        top: -20%;
+                    }
+                    @include breakpoint ($dev-lg) {
+                        left: 24%;
+                        top: -37%;
+                    }
+                    @include breakpoint ($dev-sm) {
+                        left: 34%;
+                        top: -6%;
+                    }
+                    @include breakpoint ($dev-xss) {
+                        left: 30%;
+                        top: -20%;
+                    }
+                }
+        }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Contact form                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
+
+
+.contact-form h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact-form-container {
+    margin: 0 auto;
+    text-align: center;
+
+    @include breakpoint($dev-xl) {
+        width: 40%;
+    }
+    @include breakpoint($dev-lg) {
+        width: 60%;
+    }
+        input, textarea {
+            text-align: center;
+            resize: none;
+            border-radius: 2px;
+        }
+        button {
+            width: 100%;
+            border-radius: 2px;
         }
 }
