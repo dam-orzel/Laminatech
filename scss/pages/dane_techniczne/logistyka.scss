@@ -102,7 +102,7 @@ $dev-xl: min-width 1200px;
     color: white;
     padding: 2%;
     background: #1A80E0;
-        .col-2 span {
+        .col-md-2 span, .col-4 span {
             display: block;
             font-weight: bold;
             text-align: center;
@@ -112,7 +112,7 @@ $dev-xl: min-width 1200px;
 .second-row {
     color: #1A80E0;
     padding: 2%;
-        .col-2 span {
+        .col-md-2 span, .col-4 span {
             display: block;
             font-weight: bold;
             text-align: center;
