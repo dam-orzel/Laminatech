@@ -18,7 +18,7 @@ $dev-xl: min-width 1200px;
 }
 
 .properties-first-article {
-    background    : rgb(225, 225, 226);
+    background    : #E8EDF2;
     width         : 100%;
     padding-bottom: 5%;
     @include breakpoint($dev-md){
@@ -88,6 +88,10 @@ $dev-xl: min-width 1200px;
             width      : 100%;
             height     : 100%;
         }
+        @include breakpoint($dev-sm) {
+            width : 100%;
+            height: 90%;
+        }
         @include breakpoint($dev-xs) {
             width : 100%;
             height: 100%;
@@ -154,6 +158,10 @@ $dev-xl: min-width 1200px;
             width      : 100%;
             height     : 100%;
 
+        }
+        @include breakpoint($dev-sm) {
+            width : 100%;
+            height: 90%;
         }
         @include breakpoint($dev-xs) {
             width : 100%;
@@ -353,9 +361,14 @@ $dev-xl: min-width 1200px;
 /////////////////////////////////////////////////////////////
 
 .poli-label {
+    margin-bottom: 100px;
     @include breakpoint($dev-xl){
     padding: 0 10% 0 10%;
     }
+}
+
+.poli-label h2 {
+    margin: 10% 0 10% 0;
 }
 
 .poli-label-title {
@@ -407,7 +420,7 @@ $dev-xl: min-width 1200px;
 }
 
 .poli-label-table tr td:first-child {
-    padding-left: 5%;
+    padding-left: 2%;
     width: 100%;
 
 }
@@ -437,4 +450,227 @@ $dev-xl: min-width 1200px;
 .poli-label-1 td:nth-child(4), .poli-label-3 td:nth-child(4), .poli-label-5 td:nth-child(4) {
     background-color: $border-dh;
     color: white;
+}
+
+.poli-advantages {
+    background-color: #E8EDF2;
+
+    @include breakpoint ($dev-xl) {
+        padding: 0 10% 0 10%;
+    }
+    @include breakpoint ($dev-lg) {
+        padding: 0 10% 0 10%;
+    }
+    @include breakpoint ($dev-md) {
+        padding: 0 5% 0 5%;
+    }
+
+}
+.poli-advantages-title {
+    display: inline-block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom : 1px solid $border-d;
+    position      : relative;
+    margin-bottom : 3%;
+
+
+    &::after {
+        content       : '';
+        position      : absolute;
+        z-index       : 1;
+        top           : 0;
+        right         : 70%;
+        bottom        : -2%;
+        left          : 0;
+        padding-bottom: 10px;
+        border-bottom : 3px solid $border-dh;
+    }
+}
+
+.adva-ladder {
+    height: 1200px;
+    margin-left: 2%;
+    background-image: url("../../../images/drabinka-wlasciwosci.svg");
+    background-repeat: no-repeat;
+    @include breakpoint ($dev-md) {
+        margin-left: 4%;
+    }
+    @include breakpoint ($dev-sm) {
+        margin-left: 5%;
+    }
+    @include breakpoint ($dev-xs) {
+        margin-left: 6%;
+    }
+}
+
+.poli-advantages-content {
+    position: relative;
+    list-style: none;
+}
+
+.poli-advantages .row {
+    padding-bottom: 100px;
+}
+
+li[class^="poli-advantages-item-"] {
+    font-size: 20px;
+    position: absolute;
+        @include breakpoint ($dev-lg) {
+            left: -90px;
+        }
+        @include breakpoint ($dev-md) {
+            left: -70px;
+        }
+        @include breakpoint ($dev-sm) {
+            left: -50px;
+        }
+        @include breakpoint ($dev-xs) {
+            font-size: 14px;
+            left: -30px;
+        }
+}
+
+.poli-advantages-item-1 {
+    top: 2.4em;
+    left: -145px;
+    @include breakpoint ($dev-xs) {
+        top: 3.8em
+    }
+}
+
+.poli-advantages-item-2 {
+    left: -145px;
+    top: 5.8em;
+    @include breakpoint ($dev-xs) {
+        top: 8.6em
+    }
+}
+
+.poli-advantages-item-3 {
+    left: -145px;
+    top: 9.2em;
+    @include breakpoint ($dev-xs) {
+        top: 13.6em
+    }
+}
+
+.poli-advantages-item-4 {
+    left: -145px;
+    top: 12.6em;
+    @include breakpoint ($dev-xs) {
+        top: 18.4em
+    }
+}
+
+.poli-advantages-item-5 {
+    left: -145px;
+    top: 16.1em;
+    @include breakpoint ($dev-xs) {
+        top: 23.4em
+    }
+}
+
+.poli-advantages-item-6 {
+    left: -145px;
+    top: 21.3em;
+    @include breakpoint ($dev-xs) {
+        top: 30.9em
+    }
+}
+
+.poli-advantages-item-7 {
+    left: -145px;
+    top: 33.1em;
+    @include breakpoint ($dev-xs) {
+        top: 47.8em
+    }
+}
+
+.poli-advantages-item-8 {
+    left: -145px;
+    top: 38.4em;
+    @include breakpoint ($dev-xs) {
+        top: 55.2em
+    }
+}
+
+.poli-advantages-item-9 {
+    left: -145px;
+    top: 41.7em;
+    @include breakpoint ($dev-xs) {
+        top: 60em
+    }
+}
+
+.poli-advantages-item-10 {
+    left: -145px;
+    top: 45.1em;
+    @include breakpoint ($dev-xs) {
+        top: 65em
+    }
+}
+
+.poli-advantages-item-11 {
+    left: -145px;
+    top: 48.5em;
+    @include breakpoint ($dev-xs) {
+        top: 69.8em
+    }
+}
+
+.poli-advantages-item-12 {
+    left: -145px;
+    top: 52em;
+    @include breakpoint ($dev-xs) {
+        top: 74.7em
+    }
+}
+
+.poli-advantages-item-13 {
+    left: -145px;
+    top: 55.4em;
+    @include breakpoint ($dev-xs) {
+        top: 79.6em
+    }
+}
+
+.poli-advantages-item-14 {
+    left: -145px;
+    top: 59em;
+    @include breakpoint ($dev-xs) {
+        top: 84.7em
+    }
+}
+
+
+/////////////////////////////////////////////////////////////
+///////
+///////              Instrukcja montażu               ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.montage-instruction {
+    margin-top: 90px;
+
+}
+
+.montage-instruction h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.instruction-wrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instruction-btn {
+
 }
