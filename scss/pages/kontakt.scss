@@ -1,0 +1,58 @@
+@import '../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss'; /////////////////////////////////////////////////////////////
+///////
+///////                 Style wielokrotne             ///////
+///////
+/////////////////////////////////////////////////////////////
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, .60);
+$border-dh: rgb(0, 76, 147);
+$border-dhl: rgb(26, 128, 224);
+$dev-xs: max-width 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Google Maps                   ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.google-map {
+margin-top: 75px;
+}
+
+.google-maps ul {
+    list-style: none;
+    text-align: center;
+}
+
+.google-maps-logo {
+    margin-top: 5%;
+    height: 50%;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+
+
+.contact-banner {
+    margin-top: 50px;
+    padding: 2% 2% 1% 2%;
+    background-color: #E8EDF2;
+        div:last-child ul{
+            margin-top: 6%;
+            @include breakpoint($dev-xs) {
+                margin-top: 0;
+            }
+            @include breakpoint($dev-sm) {
+                margin-top: 0;
+            }
+        }
+
+        div:nth-child(2) ul li:first-child {
+            font-weight: bold;
+        }
+}
