@@ -1,0 +1,138 @@
+@import '../../../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss'; /////////////////////////////////////////////////////////////
+///////
+///////                 Style wielokrotne             ///////
+///////
+/////////////////////////////////////////////////////////////
+$body-color: rgb(251, 251, 251);
+$border-d: rgba(77, 77, 77, .60);
+$border-dh: rgb(0, 76, 147);
+$border-dhl: rgb(26, 128, 224);
+$dev-xss: max-width 400px;
+$dev-xs: max-width 575px;
+$dev-sm: 576px 767px;
+$dev-md: 768px 991px;
+$dev-lg: 992px 1199px;
+$dev-xl: min-width 1200px;
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Setup Header                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.setup-header {
+    position           : relative;
+    background         : linear-gradient(rgba(26, 128, 224, 0.7), rgba(19, 41, 61,1)), url("../../../images/building-bg.jpg");
+    background-position: bottom;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    color              : white;
+    padding            : 5% 10%;
+    margin-top: 75px;
+
+
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    span {
+        display    : block;
+        line-height: 30px;
+        text-align : center;
+        color: rgba(255,255,255,0.7);
+        margin-right: 35%;
+        margin-left: 20%;
+        padding-bottom: 5%;
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom : 1px solid white;
+        position      : relative;
+        width: 60%;
+        @include breakpoint($dev-xl) {
+            margin-right: 35%;
+            margin-left: 32%;
+            width: 37%;
+        }
+        @include breakpoint($dev-xs) {
+            margin-right: 0%;
+            margin-left: 15%;
+            width: 70%;
+        }
+        &::after {
+            content       : '';
+            position      : absolute;
+            z-index       : 1;
+            top           : 0;
+            right         : 70%;
+            bottom        : -2%;
+            left          : 0;
+            padding-bottom: 10px;
+            border-bottom : 3px solid $border-dhl;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////               Kolejnośc montażu              ///////
+///////
+/////////////////////////////////////////////////////////////
+
+
+.setup-steps-item {
+    border: 1px solid $border-dh;
+    padding: 2% 2% 1% 2%;
+    margin-top: 50px;
+        h5 {
+            font-size: 100px;
+            font-weight: bold;
+            text-align: center;
+            color: #004C93;
+
+        }
+        span {
+        }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Grafika Korytka               ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.setup-poli-graph {
+    margin-top: 75px;
+}
+
+.setup-first-graph {
+    border: 1px solid #004C93;
+    width: 20%;
+}
+
+.setup-second-graph {
+    background-image: url("../../../images/montage-table.png");
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+    min-height: 300px;
+    @include breakpoint($dev-lg){
+        margin-top: 0px;
+    }
+    @include breakpoint($dev-md){
+        min-height: 500px;
+    }
+    @include breakpoint($dev-xl){
+        margin-top: 0px;
+    }
+    margin-top: 75px;
+}
+
+.montage-instructions h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin: 75px 0;
+}
