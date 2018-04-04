@@ -291,6 +291,7 @@ $dev-xl: min-width 1200px;
 
 .poli-graf {
     background-image: url("../../../images/graph-bg.png");
+    background-size: cover;
 }
 
 .poli-graf-title {
@@ -401,7 +402,7 @@ $dev-xl: min-width 1200px;
     padding: 7px;
     font-size: 18px;
         @include breakpoint($dev-xs) {
-            font-size: 12px;
+            font-size: 10px;
         }
 }
 
@@ -430,6 +431,11 @@ $dev-xl: min-width 1200px;
     padding-right: 50px;
     padding-left: 50px;
     text-align: center;
+    @include breakpoint($dev-xs) {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }
 .poli-label-table tr td:nth-child(4) {
     padding-right: 20px;
@@ -503,6 +509,7 @@ $dev-xl: min-width 1200px;
     }
     @include breakpoint ($dev-xs) {
         margin-left: 6%;
+
     }
 }
 
@@ -513,6 +520,8 @@ $dev-xl: min-width 1200px;
 
 .poli-advantages .row {
     padding-bottom: 100px;
+    margin-top: 5%;
+    margin-right: 0;
 }
 
 li[class^="poli-advantages-item-"] {

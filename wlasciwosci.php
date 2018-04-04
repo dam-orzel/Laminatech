@@ -183,7 +183,7 @@
         <h2 class="mb-5">Zobacz instrukcję montażu korytek polimerobetonowych</h2>
             <div class="form-row text-center">
                 <div class="col-12">
-                <button class="btn btn-lg btn-outline-primary instruction-btn">Zobacz instrukcję</button>
+                <a href="montaz.php"><button class="btn btn-lg btn-outline-primary instruction-btn">Zobacz instrukcję</button></a>
                 </div>
             </div>
         </div>

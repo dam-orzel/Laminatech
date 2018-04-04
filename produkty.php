@@ -19,6 +19,35 @@
     <?php include('assets/components/menu.php'); ?>
     <section class="products-list">
         <div class="container">
+            <div class="class-legend  d-none d-lg-block">
+                <div class="row legend-list">
+                    <div class="col-3">
+                        <div class="legend-item-1">
+                            <img src="images/icon/Ikona_Rower_blue.svg" alt="" width="34px">
+                            <span>A15 (1,5 tony)</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="legend-item-2">
+                            <img src="images/icon/Ikona_amochód_blue.svg" alt="" width="48px">
+                            <span>B125 (15,5 tony) </span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="legend-item-3">
+                            <img src="images/icon/Ikona_Ciężarówka_blue.svg" alt="" width="34px">
+                            <span>C250 (25 ton) </span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="legend-item-4">
+                            <img src="images/icon/Ikona_Wózek_blue.svg" alt="" width="42px">
+                            <span>D400 (40 ton) </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <div class="product-type-bg">
                 <h2>Typ 100</h2>
                 <div class="row">
@@ -93,7 +122,7 @@
                                 <div class="products-icons">
                                     <img src="images/icon/Ikona_Rower_blue.svg" alt="" width="34px">
                                     <img src="images/icon/Ikona_amochód_blue.svg" alt="" width="42px" class="mt-2">
-                                    <img src="images/icon/Ikona_Ciężarówka_grey_1.svg" alt="" width="34px">
+                                    <img src="images/icon/Ikona_Ciężarówka_blue.svg" alt="" width="34px">
                                     <img src="images/icon/Ikona_Wózek_blue.svg" alt="" width="34px">
                                     <img src="images/icon/Ikona_Ciężarówka_grey.svg" alt="" width="34px">
                                 </div>
@@ -154,7 +183,7 @@
                             <div class="col-md-12">
                                 <div class="products-icons">
                                     <img src="images/icon/Ikona_Rower_blue.svg" alt="" width="34px">
-                                    <img src="images/icon/Ikona_amochód_blue.svg" alt="" width="42px" class="mt-2">
+                                    <img src="images/icon/Ikona_samochód_szary.svg" alt="" width="42px" class="mt-2">
                                     <img src="images/icon/Ikona_Ciężarówka_grey_1.svg" alt="" width="34px">
                                     <img src="images/icon/Ikona_wózek_Gray.svg" alt="" width="34px">
                                     <img src="images/icon/Ikona_Ciężarówka_grey.svg" alt="" width="34px">
@@ -174,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-type">
+            <div class="product-type zaslepki">
                 <h2>Zaślepki</h2>
                 <div class="row">
                     <div class="col-xs-12 col-lg-4">

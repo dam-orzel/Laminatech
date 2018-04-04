@@ -89,7 +89,7 @@ margin-top: 75px;
                 h3 {
                     font-size: 16px;
                     font-weight: bold;
-                    margin: 35% 0 10% 0;
+                    margin: 25% 0 10% 0;
                 }
                 .contact-item-number{
                     font-size: 16px;
@@ -98,13 +98,16 @@ margin-top: 75px;
                     padding: 4% 10% 4% 10%;
                     margin-bottom: 15%;;
                     background-color: #172f95;
+                        span {
+                            text-transform: none;
+                        }
                     @include breakpoint($dev-lg) {
                         font-size: 14px;
                     }
                 }
                 .circle-icon {
                     position: absolute;
-                    left: 26%;
+                    left: 30%;
                     top: -30%;
                     background-color: #1A80E0;
                     padding: 7%;

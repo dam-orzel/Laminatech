@@ -54,7 +54,7 @@
     <section class="all-contacts">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-3 contact-item">
+                <div class="col-xs-12 col-md-6 col-lg-4 contact-item">
                     <div class="circle-icon">
                         <img src="images/Dział_Techniczny_Icon.svg" alt="" height="75" width="75">
                     </div>
@@ -63,7 +63,7 @@
                         <span>693 729 972</span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 contact-item">
+                <div class="col-xs-12 col-md-6 col-lg-4 contact-item">
                     <div class="circle-icon">
                         <img src="images/Dział_Handlowy_Icon.svg" alt="" height="75" width="75">
                     </div>
@@ -72,16 +72,8 @@
                         <span>601 544 498</span>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 contact-item">
-                    <div class="circle-icon">
-                        <img src="images/Fax_Icon.svg" alt="" height="75" width="75">
-                    </div>
-                    <h3>Fax</h3>
-                    <div class="contact-item-number">
-                        <span>(32) 740 55 74</span>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 contact-item">
+
+                <div class="col-xs-12 col-md-6 col-lg-4 contact-item">
                     <div class="circle-icon">
                         <img src="images/Mail_Icon.svg" alt="" height="75" width="75">
                     </div>
@@ -106,7 +98,7 @@
                 <div class="form-group">
                     <textarea class="form-control" id="exampleTextarea" rows="10" placeholder="Wiadomość"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Wyślij</button>
             </form>
         </div>
     </section>

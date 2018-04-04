@@ -126,13 +126,20 @@ uwagę na kierunek strzałek. Na początku i końcu ciągu korytek zamontować �
                 <h2>Zobacz możliwości dostawy polimerobetonowych odwodnień liniowych</h2>
                 <div class="form-row text-center">
                     <div class="col-12">
-                        <button class="btn btn-lg btn-outline-primary instruction-btn">Zobacz instrukcję</button>
+                        <a href="logistyka.php"><button class="btn btn-lg btn-outline-primary instruction-btn">Zobacz możliwości</button></a>
                     </div>
                 </div>
             </div>
         </div>
         </div>
 
+    </section>
+    <section class="pdf-download container">
+            <div class="row">
+                    <span>Pobierz instrukcję montażu</span>
+                    <button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button>
+
+            </div>
     </section>
 <?php include('assets/components/footer.php'); ?>
 

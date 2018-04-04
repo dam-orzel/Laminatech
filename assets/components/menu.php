@@ -58,13 +58,14 @@
           Dane Techniczne
         </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
                                 <a class="dropdown-item" href="wlasciwosci.php">Właściwości</a>
                                 <a class="dropdown-item" href="montaz.php">Montaż</a>
                                 <a class="dropdown-item" href="logistyka.php">Logistyka</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="produkty.php">Produkty</a>
+                            <a class="nav-link aasd" href="produkty.php">Produkty</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="kontakt.php">Kontakt</a>
