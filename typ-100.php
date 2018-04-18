@@ -44,6 +44,207 @@
                 </div>
             </div>
         </section>
+        <section class="dimensions">
+            <div class="container">
+                <div class="asd">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6 dimensions-content">
+                        <h2>Wymiary odwodnień</h2>
+                        <img src="images/wymiary/Typ_100_Wymiary_Odwodnienia.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-lg-6 dimensions-content">
+                        <h2>Wymiary studzienek</h2>
+                        <img src="images/wymiary/Typ_100_wymiary_studzienek.png" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="description-table">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 title">
+                            <h2>Odwodnienia</h2>
+                    </div>
+                    <div class="col-12 col-lg-6 d-none d-lg-block title">
+                            <h2>Studzienki</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-6 content">
+                            <div class="description">
+                                <div class="content-first">
+                                <table>
+                                    <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
+                                    <tr>
+                                        <td><span>50mm</span></td>
+                                        <td><span>OLPU 100/50 A15 O W</span></td>
+                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>75mm</span></td>
+                                        <td><span>OLPU 100/75 A15 O W</span></td>
+                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div class="content-second">
+                                    <table>
+                                        <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
+                                        <tr>
+                                            <td><span>50mm</span></td>
+                                            <td><span>OLPU 100/50 A15 O W</span></td>
+                                            <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>75mm</span></td>
+                                            <td><span>OLPU 100/75 A15 O W</span></td>
+                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>75mm</span></td>
+                                            <td><span>OLPU 100/75 A15 O W</span></td>
+                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="content-third">
+                                <table>
+                                    <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
+                                    <tr>
+                                        <td><span>50mm</span></td>
+                                        <td><span>OLPU 100/50 A15 O W</span></td>
+                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>75mm</span></td>
+                                        <td><span>OLPU 100/75 A15 O W</span></td>
+                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div class="content-fourth">
+                                    <table>
+                                        <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
+                                        <tr>
+                                            <td><span>50mm</span></td>
+                                            <td><span>OLPU 100/50 A15 O W</span></td>
+                                            <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>75mm</span></td>
+                                            <td><span>OLPU 100/75 A15 O W</span></td>
+                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span>75mm</span></td>
+                                            <td><span>OLPU 100/75 A15 O W</span></td>
+                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="content-fifth">
+                                <table>
+                                    <img src="images/wymiary/Kratka Żeliwo Samochód.png" alt="">
+                                    <tr>
+                                        <td><span>50mm</span></td>
+                                        <td><span>OLPU 100/50 A15 O W</span></td>
+                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>75mm</span></td>
+                                        <td><span>OLPU 100/75 A15 O W</span></td>
+                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-block d-lg-none title-mobile ">
+                            <h2>Studzienki</h2>
+                    </div>
+                    <div class="col-12 col-lg-6 content">
+                        <div class="description">
+                            <div class="content-sixth">
+                            <table>
+                                <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
+                                <tr>
+                                    <td><span>50mm</span></td>
+                                    <td><span>OLPU 100/50 A15 O W</span></td>
+                                    <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-seventh">
+                                <table>
+                                    <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
+                                    <tr>
+                                        <td><span>50mm</span></td>
+                                        <td><span>OLPU 100/50 A15 O W</span></td>
+                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>75mm</span></td>
+                                        <td><span>OLPU 100/75 A15 O W</span></td>
+                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="content-eigth">
+                            <table>
+                                <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
+                                <tr>
+                                    <td><span>50mm</span></td>
+                                    <td><span>OLPU 100/50 A15 O W</span></td>
+                                    <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>75mm</span></td>
+                                    <td><span>OLPU 100/75 A15 O W</span></td>
+                                    <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-eigth">
+                            <table>
+                                <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
+                                <tr>
+                                    <td><span>50mm</span></td>
+                                    <td><span>OLPU 100/50 A15 O W</span></td>
+                                    <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>75mm</span></td>
+                                    <td><span>OLPU 100/75 A15 O W</span></td>
+                                    <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-ninth">
+                            <table>
+                                <img src="images/wymiary/Kratka Żeliwo Samochód.png" alt="">
+                                <tr>
+                                    <td><span>50mm</span></td>
+                                    <td><span>OLPU 100/50 A15 O W</span></td>
+                                    <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>75mm</span></td>
+                                    <td><span>OLPU 100/75 A15 O W</span></td>
+                                    <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     <?php include('assets/components/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

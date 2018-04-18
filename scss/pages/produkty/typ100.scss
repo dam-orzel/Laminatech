@@ -7,14 +7,42 @@ $body-color: rgb(251, 251, 251);
 $border-d: rgba(77, 77, 77, .60);
 $border-dh: rgb(0, 76, 147);
 $border-dhl: rgb(26, 128, 224);
+$bgc: #E8EDF2;
 $dev-xss: max-width 400px;
 $dev-xs: max-width 575px;
 $dev-sm: 576px 767px;
 $dev-md: 768px 991px;
 $dev-lg: 992px 1199px;
-$dev-xl: min-width 1200px;
+$dev-xl: min-width 1200px; /////////////////////////////////////////////////////////////
+///////
+///////                 headers template                 ///////
+///////
+/////////////////////////////////////////////////////////////
 
+.dimensions .dimensions-content h2,
+.type-header .type-header-description h2,
+.type-header .type-header-image h2 {
+    font-size     : 20px;
+    display       : block;
+    font-weight   : bold;
+    position      : relative;
+    bottom        : 0;
+    left          : 0;
+    padding-bottom: 10px;
+    border-bottom : 1px solid $border-dhl;
 
+    &::after {
+        position     : absolute;
+        z-index      : 1;
+        top          : 0;
+        right        : 90%;
+        bottom       : -2px;
+        left         : 0;
+        content      : '';
+        border-width : 20px;
+        border-bottom: 4px solid $border-dhl;
+    }
+}
 /////////////////////////////////////////////////////////////
 ///////
 ///////                 Typ-100 Header               ///////
@@ -33,63 +61,472 @@ $dev-xl: min-width 1200px;
 }
 
 .type-header .type-header-image img {
-    width: 100%;
-    padding: 10% 10% 0 10%;
-
+    width  : 100%;
+    padding: 10% 10% 0;
 }
 
 .type-header-content {
     background: #E8EDF2;
 }
 
-.type-header .type-header-description h2, .type-header .type-header-image h2 {
-    font-size     : 20px;
-    display       : block;
-    font-weight   : bold;
-    position      : relative;
-    bottom        : 0;
-    left          : 0;
-    padding-bottom: 10px;
-    border-bottom : 1px solid $border-dhl;
-
-    &::after {
-        position     : absolute;
-        z-index      : 1;
-        top          : 0;
-        right        : 93%;
-        bottom       : -2px;
-        left         : 0;
-        content      : '';
-        border-width : 20px;
-        border-bottom: 4px solid $border-dhl;
-    }
-}
-
 .type-header .type-header-description .description-content {
-    margin-top: 30px;
-    font-size: 12px;
+    margin-top : 30px;
+    font-size  : 12px;
     line-height: 25px;
-    opacity: 0.8;
+    opacity    : 0.8;
 }
 
 .type-header .type-header-description .legend-type {
-    float: left;
-    margin-top: 40px;
+    float       : left;
+    margin-top  : 40px;
     margin-right: 50px;
     @include breakpoint ($dev-xs) {
         margin-right: 10px;
-        margin-left: 20px;
+        margin-left : 20px;
     }
     @include breakpoint ($dev-xss) {
         margin-right: 0;
-        margin-left: 10px;
+        margin-left : 10px;
     }
-        span {
-            font-size: 12px;
-            padding-left:0;
-            font-weight: bold;
-            @include breakpoint ($dev-xss) {
-                font-size: 10px;
+
+    span {
+        font-size   : 12px;
+        padding-left: 0;
+        font-weight : bold;
+        @include breakpoint ($dev-xss) {
+            font-size: 10px;
+        }
+    }
+}
+/////////////////////////////////////////////////////////////
+///////
+///////                 Dimensions                    ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.dimensions {
+    margin-top: 50px;
+
+    .dimensions-content {
+        h2 {
+            font-size: 20px;
+            @include breakpoint ($dev-xs) {
+                margin-top: 25px;
             }
         }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////               Description-Table               ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.description-table {
+margin-top: 75px;
+
+.title-mobile {
+    background: $bgc;
+    margin-bottom: 2%;
+    margin-right: 1%;
+    @include breakpoint($dev-lg) {
+        max-width: 49%;
+    }
+    @include breakpoint($dev-xl) {
+        max-width: 49%;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        padding: 2% 0;
+        font-weight: bold;
+
+    }
+}
+
+    .title:first-child {
+        background: $bgc;
+        margin-bottom: 2%;
+        margin-right: 1%;
+        @include breakpoint($dev-lg) {
+            max-width: 49%;
+        }
+        @include breakpoint($dev-xl) {
+            max-width: 49%;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            padding: 2% 0;
+            font-weight: bold;
+
+        }
+    }
+    .title:last-child {
+        background: $bgc;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        @include breakpoint($dev-lg) {
+            max-width: 49%;
+        }
+        @include breakpoint($dev-xl) {
+            max-width: 49%;
+        }
+        h2 {
+            font-size: 20px;
+            text-align: center;
+            padding: 2% 0;
+            font-weight: bold;
+
+        }
+    }
+    .content:first-child {
+        background: $bgc;
+        margin-bottom: 2%;
+        margin-right: 1%;
+        @include breakpoint($dev-xl) {
+            max-width: 49%;
+        }
+        @include breakpoint($dev-lg) {
+            max-width: 49%;
+        }
+        @include breakpoint($dev-xss) {
+            margin-right: 0;
+        }
+    }
+    .content:last-child {
+        background: $bgc;
+        margin-bottom: 2%;
+        margin-left: 1%;
+        @include breakpoint($dev-xl) {
+            max-width: 49%;
+        }
+        @include breakpoint($dev-lg) {
+            max-width: 49%;
+        }
+    }
+    .content {
+        background: $bgc;
+
+        .description {
+            padding: 50px 0;
+            color: white;
+            @include breakpoint($dev-lg) {
+                padding: 0px 0 75px 0;
+            }
+            @include breakpoint($dev-xl) {
+                padding: 0px 0 75px 0;
+            }
+        }
+
+        tr {
+            background: $border-dhl;
+            display: block;
+            margin-top: 15px;
+            width: 100%;
+            margin-left: 20%;
+            @include breakpoint($dev-xs) {
+                display: inline-block;
+                margin: auto;
+                margin-top: 5px;
+            }
+            @include breakpoint($dev-xss) {
+                display: inline-block;
+                margin: auto;
+                margin-top: 5px;
+            }
+            @include breakpoint($dev-lg) {
+                margin-top: 5px;
+            }
+        }
+
+
+        [class^="content-"] {
+            position: relative;
+            margin-top: 75px;
+        }
+
+        .content-sixth {
+
+            td {
+                @include breakpoint($dev-xs) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-xss) {
+                    padding-left: 25px;
+                }
+                @include breakpoint($dev-sm) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-md) {
+                    padding-left: 30px;
+                }
+            }
+            tr:last-child {
+                background: none;
+            }
+            tr:first-child {
+                margin-top: 30px;
+            }
+            @include breakpoint($dev-xs) {
+                margin-top:130px;
+            }
+            @include breakpoint($dev-xss) {
+                margin-top:175px;
+            }
+            @include breakpoint($dev-xl) {
+                margin-top:80px;
+            }
+        }
+
+
+        .content-sixth img  {
+            width: 100%;
+            position: absolute;
+            width: 30%;
+            left: 0%;
+            top: -85%;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+            @include breakpoint($dev-xs) {
+                margin: auto;
+                width: 25%;
+                top: -270%;
+
+            }
+            @include breakpoint($dev-xss) {
+                margin: auto;
+                width: 35%;
+                top: -300%;
+            }
+            @include breakpoint($dev-md) {
+                width: 25%;
+                top: -55%;
+            }
+            @include breakpoint($dev-lg) {
+                width: 30%;
+                top: -30%;
+            }
+            @include breakpoint($dev-xl) {
+                width: 30%;
+                top: -45%;
+            }
+        }
+
+        .content-seventh,
+        .content-eigth,
+        .content-ninth {
+            @include breakpoint($dev-lg) {
+                margin-top: 95px;
+            }
+            @include breakpoint($dev-xl) {
+                margin-top: 102px;
+            }
+
+        }
+
+        .content-first,
+        .content-third,
+        .content-fifth,
+        .content-seventh,
+        .content-eigth,
+        .content-ninth {
+
+            @include breakpoint($dev-xs) {
+                margin-top:130px;
+            }
+            @include breakpoint($dev-xss) {
+                margin-top:175px;
+            }
+            @include breakpoint($dev-md) {
+                margin-top:45px;
+            }
+            td {
+
+
+                @include breakpoint($dev-xs) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-sm) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-md) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-xss) {
+                    padding-left: 25px;
+                }
+
+
+            }
+        }
+
+        .content-second,
+        .content-fourth {
+
+            @include breakpoint($dev-xs) {
+                margin-top:130px;
+            }
+            @include breakpoint($dev-xss) {
+                margin-top:175px;
+            }
+            td {
+
+
+                @include breakpoint($dev-xs) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-xss) {
+                    padding-left: 25px;
+                }
+                @include breakpoint($dev-md) {
+                    padding-left: 30px;
+                }
+                @include breakpoint($dev-sm) {
+                    padding-left: 30px;
+                }
+            }
+        }
+        .content-first img,
+        .content-third img,
+        .content-fifth img,
+        .content-seventh img,
+        .content-eigth img,
+        .content-ninth img {
+            width: 100%;
+            position:absolute;
+            width: 30%;
+            left: 0%;
+            top: -25%;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+
+            @include breakpoint($dev-xs) {
+                width: 25%;
+                top: -240%;
+                margin: auto;
+            }
+            @include breakpoint($dev-xss) {
+                width: 35%;
+                top: -260%;
+                margin: auto;
+            }
+            @include breakpoint($dev-md) {
+                width: 25%;
+                top: -30%;
+            }
+            @include breakpoint($dev-lg) {
+                width: 30%;
+                top: -35%;
+            }
+        }
+
+        .content-second img,
+        .content-fourth img {
+            width: 100%;
+            position:absolute;
+            width: 30%;
+            left: 0%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+
+            @include breakpoint($dev-xs) {
+                width: 25%;
+                top: -200%;
+                margin: auto;
+            }
+            @include breakpoint($dev-xss) {
+                width: 35%;
+                top: -220%;
+                margin: auto;
+            }
+            @include breakpoint($dev-md) {
+                width: 25%;
+                top: 0;
+            }
+            @include breakpoint($dev-lg) {
+                width: 30%;
+                top: -5%;
+            }
+        }
+
+        td {
+            padding-left: 15px;
+            text-align: center;
+            @include breakpoint($dev-xss) {
+                padding-left: 5px;
+            }
+            span {
+                font-size: 14px;
+                @include breakpoint($dev-xss) {
+                    font-size: 10px;
+                }
+                @include breakpoint($dev-lg) {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        table {
+            @include breakpoint($dev-md) {
+                margin-top: 100px;
+            }
+
+        }
+
+        td:first-child {
+            padding-left: 120px;
+
+            @include breakpoint($dev-xs) {
+                padding-left: 30px;
+            }
+            @include breakpoint($dev-sm) {
+                padding-left: 80px;
+            }
+            @include breakpoint($dev-md) {
+                padding-left: 140px;
+            }
+            @include breakpoint($dev-lg) {
+                padding-left: 70px;
+            }
+            @include breakpoint($dev-xss) {
+                padding-left: 30px;
+            }
+
+        }
+        td:last-child {
+            padding-right: 15px;
+
+            @include breakpoint($dev-xs) {
+                padding-right: 5px;
+            }
+            @include breakpoint($dev-sm) {
+                padding-left: 30px;
+            }
+            @include breakpoint($dev-md) {
+                padding-left: 30px;
+            }
+            @include breakpoint($dev-lg) {
+                padding-left: 10px;
+            }
+            @include breakpoint($dev-xss) {
+                padding-right: 30px;
+            }
+            span {
+                font-size: 10px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
 }
