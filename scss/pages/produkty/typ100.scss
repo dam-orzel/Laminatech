@@ -21,7 +21,9 @@ $dev-xl: min-width 1200px; /////////////////////////////////////////////////////
 
 .dimensions .dimensions-content h2,
 .type-header .type-header-description h2,
-.type-header .type-header-image h2 {
+.type-header .type-header-image h2,
+.download-type h2,
+.check-others {
     font-size     : 20px;
     display       : block;
     font-weight   : bold;
@@ -391,6 +393,12 @@ margin-top: 75px;
                 @include breakpoint($dev-sm) {
                     padding-left: 30px;
                 }
+                @include breakpoint($dev-lg) {
+                    padding-left: 0px;
+                }
+                @include breakpoint($dev-xl) {
+                    padding-left: 6px;
+                }
             }
         }
         .content-first img,
@@ -529,4 +537,40 @@ margin-top: 75px;
             }
         }
     }
+}
+
+/////////////////////////////////////////////////////////////
+///////
+///////                 Download Type                 ///////
+///////
+/////////////////////////////////////////////////////////////
+
+.download-type {
+    margin-top: 75px;
+}
+
+.download-type .row {
+    margin-top: 15px;
+}
+
+.download-type span {
+    font-size: 12px;
+    @include breakpoint($dev-xss) {
+        font-size: 12px;
+    }
+}
+
+.download-type .content-box {
+    display: flex;
+    align-items: center;
+    a {
+        text-decoration: underline;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+.check-others {
+    margin-top: 75px;
+    margin-bottom: 30px;
 }

@@ -102,9 +102,9 @@
                                             <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                         </tr>
                                         <tr>
-                                            <td><span>75mm</span></td>
-                                            <td><span>OLPU 100/75 A15 O W</span></td>
-                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                            <td><span>130mm</span></td>
+                                            <td><span>OLPU 100/130 A15 O W</span></td>
+                                            <td><span><p>14,5 kg</p><p>1000x125x150mm</p></span></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -113,12 +113,12 @@
                                     <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
                                     <tr>
                                         <td><span>50mm</span></td>
-                                        <td><span>OLPU 100/50 A15 O W</span></td>
+                                        <td><span>OLPU 100/50 A15 Q W</span></td>
                                         <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                     </tr>
                                     <tr>
                                         <td><span>75mm</span></td>
-                                        <td><span>OLPU 100/75 A15 O W</span></td>
+                                        <td><span>OLPU 100/75 A15 Q W</span></td>
                                         <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                     </tr>
                                 </table>
@@ -128,18 +128,18 @@
                                         <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
                                         <tr>
                                             <td><span>50mm</span></td>
-                                            <td><span>OLPU 100/50 A15 O W</span></td>
+                                            <td><span>OLPU 100/50 A15 Q W</span></td>
                                             <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                         </tr>
                                         <tr>
                                             <td><span>75mm</span></td>
-                                            <td><span>OLPU 100/75 A15 O W</span></td>
+                                            <td><span>OLPU 100/75 A15 Q W</span></td>
                                             <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                         </tr>
                                         <tr>
-                                            <td><span>75mm</span></td>
-                                            <td><span>OLPU 100/75 A15 O W</span></td>
-                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                            <td><span>130mm</span></td>
+                                            <td><span>OLPU 100/130 A15 Q W</span></td>
+                                            <td><span><p>14,5 kg</p><p>1000x125x150mm</p></span></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -147,14 +147,14 @@
                                 <table>
                                     <img src="images/wymiary/Kratka Żeliwo Samochód.png" alt="">
                                     <tr>
-                                        <td><span>50mm</span></td>
-                                        <td><span>OLPU 100/50 A15 O W</span></td>
-                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                        <td><span>75mm</span></td>
+                                        <td><span>OLPU 100/50 B125 Z</span></td>
+                                        <td><span><p>13,8 kg</p><p>1000x125x60mm</p></span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>75mm</span></td>
-                                        <td><span>OLPU 100/75 A15 O W</span></td>
-                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        <td><span>130mm</span></td>
+                                        <td><span>OLPU 100/75 B125 Z</span></td>
+                                        <td><span><p>20 kg</p><p>1000x125x100mm</p></span></td>
                                     </tr>
                                 </table>
                                 </div>
@@ -169,7 +169,7 @@
                             <table>
                                 <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
                                 <tr>
-                                    <td><span>50mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/50 A15 O W</span></td>
                                     <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                 </tr>
@@ -184,12 +184,12 @@
                                 <table>
                                     <img src="images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
                                     <tr>
-                                        <td><span>50mm</span></td>
+                                        <td><span></span></td>
                                         <td><span>OLPU 100/50 A15 O W</span></td>
                                         <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>75mm</span></td>
+                                        <td><span></span></td>
                                         <td><span>OLPU 100/75 A15 O W</span></td>
                                         <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                     </tr>
@@ -199,12 +199,12 @@
                             <table>
                                 <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
                                 <tr>
-                                    <td><span>50mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/50 A15 O W</span></td>
                                     <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                 </tr>
                                 <tr>
-                                    <td><span>75mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/75 A15 O W</span></td>
                                     <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                 </tr>
@@ -214,12 +214,12 @@
                             <table>
                                 <img src="images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
                                 <tr>
-                                    <td><span>50mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/50 A15 O W</span></td>
                                     <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                 </tr>
                                 <tr>
-                                    <td><span>75mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/75 A15 O W</span></td>
                                     <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                 </tr>
@@ -229,12 +229,12 @@
                             <table>
                                 <img src="images/wymiary/Kratka Żeliwo Samochód.png" alt="">
                                 <tr>
-                                    <td><span>50mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/50 A15 O W</span></td>
                                     <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
                                 </tr>
                                 <tr>
-                                    <td><span>75mm</span></td>
+                                    <td><span></span></td>
                                     <td><span>OLPU 100/75 A15 O W</span></td>
                                     <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
                                 </tr>
@@ -245,6 +245,53 @@
                 </div>
             </div>
         </section>
+        <section class="download-type">
+            <div class="container">
+                <h2>Pliki do pobrania</h2>
+                <div class="row">
+                    <div class="col-12 col-lg-6 first-column">
+                        <div class="row">
+                            <div class="col-3 col-xl-2">
+                                <a href="popup-maker-wp.rar" download><img src="images/icon/Ikona_Download_File.svg" alt=""></a>
+                            </div>
+                            <div class="col-9 col-xl-10 content-box">
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 50 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-xl-2">
+                                <a href="popup-maker-wp.rar" download><img src="images/icon/Ikona_Download_File.svg" alt=""></a>
+                            </div>
+                            <div class="col-9 col-xl-10 content-box">
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 130 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 second-column">
+                        <div class="row">
+                            <div class="col-3 col-xl-2">
+                                <a href="popup-maker-wp.rar" download><img src="images/icon/Ikona_Download_File.svg" alt=""></a>
+                            </div>
+                            <div class="col-9 col-xl-10 content-box">
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 75 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 col-xl-2">
+                                <a href="popup-maker-wp.rar" download><img src="images/icon/Ikona_Download_File.svg" alt=""></a>
+                            </div>
+                            <div class="col-9 col-xl-10 content-box">
+                                <span>Katalog Produktów 2018 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container"><h2 class="check-others">Zobacz także</h2></div>
+
+        <?php include('assets/components/type-slider.php'); ?>
     <?php include('assets/components/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

@@ -367,6 +367,8 @@ body {
     border-bottom : 2px solid $border-dh;
     width: 92%;
     position: relative;
+    font-weight: bold;
+
         &::after {
             content       : '';
             position      : absolute;
