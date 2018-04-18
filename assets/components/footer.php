@@ -17,7 +17,7 @@
                         <li>e-mail: <a href="mailto:someone@yoursite.com">biuro@laminatech.pl</a></li>
                         <li>ul. Długa 174</li>
                         <li>43-100 Tychy</li>
-                        <li><a href="">Zobacz wskazówki dojazdu</a></li>
+                        <li><a href="kontakt.php">Zobacz wskazówki dojazdu</a></li>
                     </ul>
                 </div>
             </div>
