@@ -6,7 +6,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
                 <div class="container">
-                    <a class="navbar-brand float-left" href="#">
+                    <a class="navbar-brand float-left" href="index.php">
         <img src="images/logo.svg" class="logo-nav img-fluid mr-3 mb-3" width="270" height="100" alt="">
       </a>
                 </div>
@@ -42,7 +42,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-                <a class="navbar-brand d-none d-lg-block" href="#">
+                <a class="navbar-brand d-none d-lg-block" href="index.php">
     <img src="images/logo.svg" class="img-fluid" width="400" height="100" alt="">
   </a>
                 <a class="navbar-brand d-sm-block d-lg-none pb-3" href="#">

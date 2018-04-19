@@ -25,12 +25,12 @@
                 <h5>Produkty</h5>
                 <div class="footer-products">
                     <ul>
-                        <li><a href="">Typ 100</a></li>
-                        <li><a href="">Typ 100 - 0 </a></li>
-                        <li><a href="">Typ 150 - K</a></li>
-                        <li><a href="">Typ 200 - K </a></li>
-                        <li><a href="">Zaślepki </a></li>
-                        <li><a href="">Wycieraczki </a></li>
+                        <li><a href="typ-100.php">Typ 100</a></li>
+                        <li><a href="typ-100-O.php">Typ 100 - 0 </a></li>
+                        <li><a href="typ-150.php">Typ 150 - K</a></li>
+                        <li><a href="typ-200.php">Typ 200 - K </a></li>
+                        <li><a href="zaslepki.php">Zaślepki </a></li>
+                        <li><a href="wycieraczki.php">Wycieraczki </a></li>
                     </ul>
 
                 </div>
