@@ -532,6 +532,32 @@ h3 {
                 }
             }
         }
+        .content-first .lower-padding,  {
+            td:first-child{
+                @include breakpoint($dev-xl) {
+                    padding-left: 110px;
+                }
+                @include breakpoint($dev-lg) {
+                    padding-left: 60px;
+                }
+                @include breakpoint($dev-md) {
+                    padding-left: 130px;
+                }
+            }
+        }
+        .content-first .lower-paddingx2 {
+            td:first-child{
+                @include breakpoint($dev-xl) {
+                    padding-left: 100px;
+                }
+                @include breakpoint($dev-lg) {
+                    padding-left: 60px;
+                }
+                @include breakpoint($dev-md) {
+                    padding-left: 120px;
+                }
+            }
+        }
         td:last-child {
             padding-right: 15px;
 

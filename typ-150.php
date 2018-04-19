@@ -62,7 +62,7 @@
         </section>
         <section class="description-table">
             <div class="container">
-                <h3>Dostępne modele</h2>
+                <h3>Dostępne modele</h3>
                 <div class="row">
                     <div class="col-12 col-lg-6 title">
                             <h2>Odwodnienia</h2>
