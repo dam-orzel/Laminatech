@@ -125,12 +125,12 @@ $dev-xl: min-width 1200px;
             }
             button {
                 border-radius: 0;
-                padding: 0 50px;
+                padding: 5px 50px;
                 @include breakpoint($dev-xs) {
-                    padding: 1px 40px;
+                    padding: 5px 40px;
                 }
                 @include breakpoint($dev-xss) {
-                    padding: 5px 20px;
+                    padding: 7px 20px;
                 }
             }
             .row {
@@ -188,12 +188,23 @@ $dev-xl: min-width 1200px;
                 width: 100%;
             }
         }
-        button {
+        .button-bg {
             width: 50%;
+            background: #004C93;
+            @include breakpoint($dev-xss) {
+                width: 100%;
+            }
+            @include breakpoint($dev-xs) {
+                width: 100%;
+            }
+        }
+        button {
+            width: 100%;
             border-radius: 0;
             background: #004C93;
             color: white;
             font-weight: bold;
+            text-align: center;
             padding: 17px 0;
             @include breakpoint($dev-xs) {
                 width: 100%;

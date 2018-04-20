@@ -73,7 +73,7 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/typ-100.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
@@ -104,14 +104,14 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/typ-100-O.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="product-type-bg">
-                <h2>Typ 150-K</h2>
+                <h2>Typ 150</h2>
                 <div class="row">
                     <div class="col-xs-12 col-lg-4">
                         <div class="row">
@@ -135,14 +135,14 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/typ-150.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="product-type">
-                <h2>Typ 200-K</h2>
+                <h2>Typ 200</h2>
                 <div class="row">
                     <div class="col-xs-12 col-lg-4">
                         <div class="row">
@@ -166,7 +166,7 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/typ-200.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/wycieraczki.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                                 lobortis nisl ut aliquip ex ea commodo consequat. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
-                                <button class="btn btn-sm btn-primary">Zobacz wszystkie</button>
+                                <a href="produkty/zaslepki.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +239,9 @@
     <section class="pdf-download container">
             <div class="row">
                     <span>Pobierz katalog produktów</span>
-                    <button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button>
+                    <div class="button-bg">
+                        <a href="popup-maker-wp.rar" download><button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button></a>
+                    </div>
 
             </div>
     </section>
