@@ -23,11 +23,11 @@
                 <div class="type-header-content">
                     <div class="row">
                         <div class="col-xs-12 col-lg-5 type-header-image">
-                            <h2 class="d-block d-lg-none">Typ 100</h2>
-                            <img src="../images/typ100.png" alt="">
+                            <h2 class="d-block d-lg-none">Typ 100-O</h2>
+                            <img src="../images/typ100-0.png" alt="">
                         </div>
                         <div class="col-xs-12 col-lg-7 type-header-description">
-                            <h2 class="d-none d-lg-block">Typ 100</h2>
+                            <h2 class="d-none d-lg-block">Typ 100-O</h2>
                             <div class="description-content">
                                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
                             </div>
@@ -50,11 +50,11 @@
                 <div class="row">
                     <div class="col-xs-12 col-lg-6 dimensions-content">
                         <h2>Wymiary odwodnień</h2>
-                        <img src="../images/wymiary/Typ_100_Wymiary_Odwodnienia.png" alt="">
+                        <img src="../images/wymiary/Typ 100-O/Wymiaryodwodnień.png" alt="">
                     </div>
                     <div class="col-xs-12 col-lg-6 dimensions-content">
                         <h2>Wymiary studzienek</h2>
-                        <img src="../images/wymiary/Typ_100_wymiary_studzienek.png" alt="">
+                        <img src="../images/wymiary/Typ 100-O/Wymiary studzienelk.png" alt="" class="mt-4">
                     </div>
                 </div>
                 </div>
@@ -78,84 +78,74 @@
                                 <table>
                                     <img src="../images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
                                     <tr>
-                                        <td><span>50mm</span></td>
-                                        <td><span>OLPU 100/50 A15 O W</span></td>
-                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
+                                        <td><span>40mm</span></td>
+                                        <td><span>OLPU 100/40-O A15 O</span></td>
+                                        <td><span><p>8,5 kg</p><p>1000x125x60mm</p></span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>75mm</span></td>
-                                        <td><span>OLPU 100/75 A15 O W</span></td>
-                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
+                                        <td><span>90mm</span></td>
+                                        <td><span>OLPU 100/90-O A15 O</span></td>
+                                        <td><span><p>15,5 kg</p><p>1000x130x135mm</p></span></td>
                                     </tr>
                                 </table>
                                 </div>
-                                <div class="content-second">
-                                    <table>
-                                        <img src="../images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
-                                        <tr>
-                                            <td><span>50mm</span></td>
-                                            <td><span>OLPU 100/50 A15 O W</span></td>
-                                            <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>75mm</span></td>
-                                            <td><span>OLPU 100/75 A15 O W</span></td>
-                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>130mm</span></td>
-                                            <td><span>OLPU 100/130 A15 O W</span></td>
-                                            <td><span><p>14,5 kg</p><p>1000x125x150mm</p></span></td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="content-third">
-                                <table>
-                                    <img src="../images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
-                                    <tr>
-                                        <td><span>50mm</span></td>
-                                        <td><span>OLPU 100/50 A15 Q W</span></td>
-                                        <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span>75mm</span></td>
-                                        <td><span>OLPU 100/75 A15 Q W</span></td>
-                                        <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
-                                    </tr>
-                                </table>
-                                </div>
-                                <div class="content-fourth">
-                                    <table>
-                                        <img src="../images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
-                                        <tr>
-                                            <td><span>50mm</span></td>
-                                            <td><span>OLPU 100/50 A15 Q W</span></td>
-                                            <td><span><p>6,8 kg</p><p>1000x125x60mm</p></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>75mm</span></td>
-                                            <td><span>OLPU 100/75 A15 Q W</span></td>
-                                            <td><span><p>8,5 kg</p><p>1000x125x100mm</p></span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><span>130mm</span></td>
-                                            <td><span>OLPU 100/130 A15 Q W</span></td>
-                                            <td><span><p>14,5 kg</p><p>1000x125x150mm</p></span></td>
-                                        </tr>
-                                    </table>
-                                </div>
-                                <div class="content-fifth">
+                                <div class="content-first">
                                 <table>
                                     <img src="../images/wymiary/Kratka Żeliwo Samochód.png" alt="">
                                     <tr>
-                                        <td><span>75mm</span></td>
-                                        <td><span>OLPU 100/50 B125 Z</span></td>
-                                        <td><span><p>13,8 kg</p><p>1000x125x60mm</p></span></td>
+                                        <td><span>40mm</span></td>
+                                        <td><span>OLPU 100/40-O B125 Z</span></td>
+                                        <td><span><p>12,5 kg</p><p>1000x125x60mm</p></span></td>
                                     </tr>
                                     <tr>
-                                        <td><span>130mm</span></td>
-                                        <td><span>OLPU 100/75 B125 Z</span></td>
-                                        <td><span><p>20 kg</p><p>1000x125x100mm</p></span></td>
+                                        <td><span>90mm</span></td>
+                                        <td><span>OLPU 100/90-O B125 Z</span></td>
+                                        <td><span><p>20,5 kg</p><p>1000x130x135mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div class="content-first">
+                                <table class="lower-padding">
+                                    <img src="../images/wymiary/Typ 100-O/Kratka_Tworzywo_Sztuczne_Rower.png" alt="">
+                                    <tr>
+                                        <td><span>40mm</span></td>
+                                        <td><span>OLPU 100/40-O B125 TW</span></td>
+                                        <td><span><p>7,5 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>90mm</span></td>
+                                        <td><span>OLPU 100/90-O B125 TW</span></td>
+                                        <td><span><p>15 kg</p><p>1000x130x135mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div class="content-first">
+                                <table>
+                                    <img src="../images/wymiary/Typ 100-O/Kratka_Żeliwo_Ciężarówka.png" alt="">
+                                    <tr>
+                                        <td><span>40mm</span></td>
+                                        <td><span>OLPU 100/40-O C250 Z</span></td>
+                                        <td><span><p>14 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>90mm</span></td>
+                                        <td><span>OLPU 100/90-O C250 Z</span></td>
+                                        <td><span><p>21,5 kg</p><p>1000x130x135mm</p></span></td>
+                                    </tr>
+                                </table>
+                                </div>
+                                <div class="content-first">
+                                <table class="lower-paddingx2">
+                                    <img src="../images/wymiary/Typ 100-O/Kratka_Tworzywo_Sztuczne_Szczelinowe_Ciężarówka.png" alt="">
+                                    <tr>
+                                        <td><span>40mm</span></td>
+                                        <td><span>OLPU 100/40-O C250 TWS</span></td>
+                                        <td><span><p>8 kg</p><p>1000x125x60mm</p></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>90mm</span></td>
+                                        <td><span>OLPU 100/90-O C250 TWS</span></td>
+                                        <td><span><p>15,5 kg</p><p>1000x130x135mm</p></span></td>
                                     </tr>
                                 </table>
                                 </div>
@@ -166,78 +156,78 @@
                     </div>
                     <div class="col-12 col-lg-6 content">
                         <div class="description">
-                            <div class="content-sixth">
+                            <div class="content-first">
                             <table>
                                 <img src="../images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
                                 <tr>
                                     <td><span></span></td>
-                                    <td><span>OLPU 100/75 A15 O</span></td>
+                                    <td><span>SPU 100/40-O A15 O</span></td>
                                     <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/90-O A15 O</span></td>
+                                    <td><span><p>16 kg</p><p>365x130x390mm</p></span></td>
                                 </tr>
                             </table>
                             </div>
-                            <div class="content-seventh">
-                                <table>
-                                    <img src="../images/wymiary/Kratka_Stal_Ocynkowana_Rower.png" alt="">
-                                    <tr>
-                                        <td><span></span></td>
-                                        <td><span>OLPU 100/50 A15 O</span></td>
-                                        <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span></span></td>
-                                        <td><span>OLPU 100/75 A15 O</span></td>
-                                        <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="content-eigth">
-                            <table id="content-eight-first">
-                                <img src="../images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
-                                <tr>
-                                    <td><span></span></td>
-                                    <td><span>OLPU 100/50 A15 Q W</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                </tr>
-                                <tr>
-                                    <td><span></span></td>
-                                    <td><span>OLPU 100/75 A15 Q W</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                </tr>
-                            </table>
-                            </div>
-                            <div class="content-eigth">
-                            <table>
-                                <img src="../images/wymiary/Kratka_Stal_Nierdzewna_Rower.png" alt="">
-                                <tr>
-                                    <td><span></span></td>
-                                    <td><span>OLPU 100/50 A15 Q</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                </tr>
-                                <tr>
-                                    <td><span></span></td>
-                                    <td><span>OLPU 100/75 A15 Q</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
-                                </tr>
-                            </table>
-                            </div>
-                            <div class="content-ninth">
+                            <div class="content-first">
                             <table>
                                 <img src="../images/wymiary/Kratka Żeliwo Samochód.png" alt="">
                                 <tr>
                                     <td><span></span></td>
-                                    <td><span>OLPU 100/50 B125 Z</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
+                                    <td><span>SPU 100/40-O B125 Z</span></td>
+                                    <td><span><p>18 kg</p><p>365x125x390mm</p></span></td>
                                 </tr>
                                 <tr>
                                     <td><span></span></td>
-                                    <td><span>OLPU 100/75 B125 Z</span></td>
-                                    <td><span><p>16 kg</p><p>365x125x390mm</p></span></td>
+                                    <td><span>SPU 100/90-O B125 Z</span></td>
+                                    <td><span><p>18 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-first">
+                            <table class="lower-padding">
+                                <img src="../images/wymiary/Typ 100-O/Kratka_Tworzywo_Sztuczne_Rower.png" alt="">
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/90-O B125 TW</span></td>
+                                    <td><span><p>16 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/90-O B125 TW</span></td>
+                                    <td><span><p>16 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-first">
+                            <table>
+                                <img src="../images/wymiary/Typ 100-O/Kratka_Żeliwo_Ciężarówka.png" alt="">
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/40-O C250 Z</span></td>
+                                    <td><span><p>19 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/90-O C250 Z</span></td>
+                                    <td><span><p>19 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                            </table>
+                            </div>
+                            <div class="content-first">
+                            <table class="lower-paddingx2">
+                                <img src="../images/wymiary/Typ 100-O/Kratka_Tworzywo_Sztuczne_Szczelinowe_Ciężarówka.png" alt="">
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/40-O C250 TWS</span></td>
+                                    <td><span><p>17 kg</p><p>365x130x390mm</p></span></td>
+                                </tr>
+                                <tr>
+                                    <td><span></span></td>
+                                    <td><span>SPU 100/90-O C250 TWS</span></td>
+                                    <td><span><p>17 kg</p><p>365x130x390mm</p></span></td>
                                 </tr>
                             </table>
                             </div>

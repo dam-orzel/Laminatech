@@ -17,7 +17,7 @@
                         <li>e-mail: <a href="mailto:someone@yoursite.com">biuro@laminatech.pl</a></li>
                         <li>ul. Długa 174</li>
                         <li>43-100 Tychy</li>
-                        <li><a href="produkty/kontakt.php">Zobacz wskazówki dojazdu</a></li>
+                        <li><a href="kontakt.php">Zobacz wskazówki dojazdu</a></li>
                     </ul>
                 </div>
             </div>
@@ -25,12 +25,12 @@
                 <h5>Produkty</h5>
                 <div class="footer-products">
                     <ul>
-                        <li><a href="produkty/typ-100.php">Typ 100</a></li>
-                        <li><a href="produkty/typ-100-O.php">Typ 100 - 0 </a></li>
-                        <li><a href="produkty/typ-150.php">Typ 150 - K</a></li>
-                        <li><a href="produkty/typ-200.php">Typ 200 - K </a></li>
-                        <li><a href="produkty/zaslepki.php">Zaślepki </a></li>
-                        <li><a href="produkty/wycieraczki.php">Wycieraczki </a></li>
+                        <li><a href="typ-100.php">Typ 100</a></li>
+                        <li><a href="typ-100-O.php">Typ 100 - 0 </a></li>
+                        <li><a href="typ-150.php">Typ 150 - K</a></li>
+                        <li><a href="typ-200.php">Typ 200 - K </a></li>
+                        <li><a href="zaslepki.php">Zaślepki </a></li>
+                        <li><a href="wycieraczki.php">Wycieraczki </a></li>
                     </ul>
 
                 </div>
