@@ -26,7 +26,13 @@
                             <div class="col header-main-content">
                                 <h1 class="">Polimerobetonowe odwodnienia liniowe</h1>
                                 <div class="header-text-container">
-                                    <span class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla obcaecati deserunt nesciunt unde vel voluptatem quaerat aliquid, et distinctio. Totam mollitia, alias dolore deleniti ducimus magni esse enim ullam optio!</span>
+                                    <span class="header-text">
+                                        Systemy odwodnień liniowych znajdują swoje zastosowanie m.in. na drogach, parkingach
+                                        publicznych i prywatnych, a także na różnego rodzaju postojach i podjazdach. Normy PN-EN
+                                        1433:2005, określają wymagania co do m.in. kratek i pokryw zintegrowanych z systemem, a
+                                        także określono definicje, klasy oraz zalecenia projektowe. Nasze odwodnienia spełniają te
+                                        normy, są przyjazne dla środowiska, oraz nie zanieczyszczają gruntów i pobliskich wód
+                                        powierzchniowych.</span>
                                 </div>
                                 <button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2">Czytaj więcej</button>
                             </div>
@@ -42,7 +48,12 @@
                         <div class="col header-main-content">
                             <h1 class="pr-5">Polimerobetonowe odwodnienia liniowe</h1>
                             <div class="header-text-container">
-                                <span class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla obcaecati deserunt nesciunt unde vel voluptatem quaerat aliquid, et distinctio. Totam mollitia, alias dolore deleniti ducimus magni esse enim ullam optio!</span>
+                                <span class="header-text">Systemy odwodnień liniowych znajdują swoje zastosowanie m.in. na drogach, parkingach
+                                publicznych i prywatnych, a także na różnego rodzaju postojach i podjazdach. Normy PN-EN
+                                1433:2005, określają wymagania co do m.in. kratek i pokryw zintegrowanych z systemem, a
+                                także określono definicje, klasy oraz zalecenia projektowe. Nasze odwodnienia spełniają te
+                                normy, są przyjazne dla środowiska, oraz nie zanieczyszczają gruntów i pobliskich wód
+                                powierzchniowych.</span>
                             </div>
                             <button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2">Czytaj więcej</button>
                         </div>
@@ -58,21 +69,40 @@
                     <div class="col-12 col-lg-4">
                         <h3 class="font-weight-bold">Drogi, parkingi, postoje i podjazdy</h3>
                         <div class="main-content-border">
-                            <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                            <span class="main-content-text">Zastosowanie odwodnień liniowych na drogach staje się coraz bardziej powszechne.
+Główną korzyścią wynikającą z użycia tego systemu jest przede wszystkim brak
+konieczności stosowania linii spadków podczas projektowania dróg w przeciwieństwie do
+tradycyjnego odwodnienia punktowego. Odwodnienie na drogach to istotna kwestia z punktu
+widzenia bezpieczeństwa, gdyż nadmiar wody na jezdni może stwarzać zagrożenie dla życia
+i zdrowia szczególnie podczas ujemnych temperatur. Odwodnienie liniowe z powodzeniem
+znajduje swoje zastosowanie także w miejscach przy drogach przeznaczonych na postój.</span>
                         </div>
                         <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
                     <div class="col-12 col-lg-4">
                         <h3 class="font-weight-bold">Obiekty produkcyjne i przemysłowe</h3>
                         <div class="main-content-border">
-                            <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                            <span class="main-content-text">Ze względu na bardzo wysoką wydajnością hydrauliczną odwodnienia liniowe stosowane są
+również na stacjach paliw. Zgodnie z przepisami prawnymi obowiązującymi na terenie Unii
+Europejskiej, odwodnienia powinny być gwarancją bezpieczeństwa. Warto pamiętać, że
+woda deszczowa odprowadzana ze stacji paliw bardzo często miesza się z olejem
+napędowym, benzyną oraz innymi płynami eksploatacyjnymi. Odwodnienia liniowe świetnie
+radzą sobie z takim wyzwaniem, a ich eksploatacja tylko i wyłącznie polega na udrażnianiu odpływów
+oraz czyszczeniu kanałów.</span>
                         </div>
                         <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
                     <div class="col-12 col-lg-4">
                         <h3 class="font-weight-bold">Garaże podziemne i piętrowe</h3>
                         <div class="main-content-border">
-                            <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                            <span class="main-content-text">System ten można również zastosować w przydomowych garażach. Poza wspomnianymi
+wcześniej aspektami technicznymi, można tutaj podkreślić niezwykle estetyczny wygląd
+odprowadzania wody. Co więcej - możliwość pokrycia żelkotem pozwala na uzyskanie
+pożądanego zabarwienia kratki.
+Duża wytrzymałość, trwałość oraz odporność na substancje chemiczne w zakresie ph 1-10
+sprawia, że odwodnienie liniowe montuje się również na publicznych, jak i prywatnych
+parkingach. Argumentem przemawiającym za stosowaniem odwodnienia liniowego w takich
+miejscach to z pewnością łatwość w montażu i eksploatacji.</span>
                         </div>
                         <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
@@ -89,7 +119,13 @@
                             <div class="col">
                                 <h3 class="font-weight-bold pb-4 text-center">Drogi, parkingi i podjazdy</h3>
                                 <div class="main-content-border">
-                                    <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                                    <span class="main-content-text">Zastosowanie odwodnień liniowych na drogach staje się coraz bardziej powszechne.
+Główną korzyścią wynikającą z użycia tego systemu jest przede wszystkim brak
+konieczności stosowania linii spadków podczas projektowania dróg w przeciwieństwie do
+tradycyjnego odwodnienia punktowego. Odwodnienie na drogach to istotna kwestia z punktu
+widzenia bezpieczeństwa, gdyż nadmiar wody na jezdni może stwarzać zagrożenie dla życia
+i zdrowia szczególnie podczas ujemnych temperatur. Odwodnienie liniowe z powodzeniem
+znajduje swoje zastosowanie także w miejscach przy drogach przeznaczonych na postój.</span>
                                 </div>
                                 <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
@@ -100,7 +136,13 @@
                             <div class="col">
                                 <h3 class="font-weight-bold pb-4 text-center">Obiekty produkcyjne</h3>
                                 <div class="main-content-border">
-                                    <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                                    <span class="main-content-text">Ze względu na bardzo wysoką wydajnością hydrauliczną odwodnienia liniowe stosowane są
+również na stacjach paliw. Zgodnie z przepisami prawnymi obowiązującymi na terenie Unii
+Europejskiej, odwodnienia powinny być gwarancją bezpieczeństwa. Warto pamiętać, że
+woda deszczowa odprowadzana ze stacji paliw bardzo często miesza się z olejem
+napędowym, benzyną oraz innymi płynami eksploatacyjnymi. Odwodnienia liniowe świetnie
+radzą sobie z takim wyzwaniem, a ich eksploatacja polega jedynie na udrażnianiu odpływów
+oraz czyszczeniu kanałów.</span>
                                 </div>
                                 <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
@@ -111,7 +153,14 @@
                             <div class="col">
                                 <h3 class="font-weight-bold pb-4 text-center">Garaże podziemnie </h3>
                                 <div class="main-content-border">
-                                    <span class="main-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                                    <span class="main-content-text">System ten można również zastosować w przydomowych garażach. Poza wspomnianymi
+wcześniej aspektami technicznymi, można tutaj podkreślić niezwykle estetyczny wygląd
+odprowadzania wody. Co więcej - możliwość pokrycia żelkotem pozwala na uzyskanie
+pożądanego zabarwienia kratki.
+Duża wytrzymałość, trwałość oraz odporność na substancje chemiczne w zakresie ph 1-10
+sprawia, że odwodnienie liniowe montuje się również na publicznych, jak i prywatnych
+parkingach. Argumentem przemawiającym za stosowaniem odwodnienia liniowego w takich
+miejscach to z pewnością łatwość w montażu i eksploatacji.</span>
                                 </div>
                                 <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
