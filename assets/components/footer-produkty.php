@@ -52,20 +52,19 @@
                 <h5>Do pobrania</h5>
                 <div class="footer-download">
                     <ul>
-                        <li><a href="">Instrukcja montażu korytek</a></li>
-                        <li><a href="">Katalog Produktów</a></li>
-                        <li><a href="">Karta produktu - Typ 100/50 </a></li>
-                        <li><a href="">Karta produktu - Typ 100/75</a></li>
-                        <li><a href="">Karta produktu - Typ 100/130</a></li>
-                        <li><a href="">Karta produktu - Typ 100/40 - O</a></li>
-                        <li><a href="">Karta produktu - Typ 100/90 - O</a></li>
-                        <li><a href="">Karta produktu - Typ 150/150 - K</a> </li>
-                        <li><a href="">Karta produktu - Typ 150/200 - K</a> </li>
-                        <li><a href="">Karta produktu - Typ 150/300 - K</a> </li>
-                        <li><a href="">Karta produktu - Typ 200/100 - K</a></li>
-                        <li><a href="">Karta produktu - Typ 200/200 - K</a></li>
-                        <li><a href="">Karta produktu - Typ 200/300 - K</a></li>
-                        <li><a href="">Karta produktu - Wycieraczka</a></li>
+                        <li><a href="assets/download/Katalog Produktów.pdf" download>Katalog Produktów</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 100-50.pdf" download>Karta produktu - Typ 100/50 </a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 100-75.pdf" download>Karta produktu - Typ 100/75</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 100-130.pdf" download>Karta produktu - Typ 100/130</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 100-40.pdf" download>Karta produktu - Typ 100/40 - O</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 100-90.pdf" download>Karta produktu - Typ 100/90 - O</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 150-150.pdf" download>Karta produktu - Typ 150/150 - K</a> </li>
+                        <li><a href="assets/download/Odwodnienia Typ 150-200.pdf" download>Karta produktu - Typ 150/200 - K</a> </li>
+                        <li><a href="assets/download/Odwodnienia Typ 150-300.pdf" download>Karta produktu - Typ 150/300 - K</a> </li>
+                        <li><a href="assets/download/Odwodnienia Typ 200-100.pdf" download>Karta produktu - Typ 200/100 - K</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 200-200.pdf" download>Karta produktu - Typ 200/200 - K</a></li>
+                        <li><a href="assets/download/Odwodnienia Typ 200-300.pdf" download>Karta produktu - Typ 200/300 - K</a></li>
+                        <li><a href="assets/download/Wycieraczki.pdf" download>Karta produktu - Wycieraczka</a></li>
                     </ul>
                 </div>
 
