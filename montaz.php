@@ -137,7 +137,9 @@ uwagę na kierunek strzałek. Na początku i końcu ciągu korytek zamontować �
     <section class="pdf-download container">
             <div class="row">
                     <span>Pobierz instrukcję montażu</span>
-                    <button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button>
+                    <div class="button-bg">
+                        <a href="popup-maker-wp.rar" download><button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button></a>
+                    </div>
 
             </div>
     </section>
