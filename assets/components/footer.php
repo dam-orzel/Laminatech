@@ -40,11 +40,9 @@
                 <h5>Dane techniczne</h5>
                 <div class="footer-technical">
                     <ul>
-                        <li><a href="">Oznaczenia</a></li>
-                        <li><a href="">Dane techniczne</a></li>
-                        <li><a href="">Właściwości </a></li>
-                        <li><a href="">Montaż</a></li>
-                        <li><a href="">Logistyka</a></li>
+                        <li><a href="wlasciwosci.php">Właściwości </a></li>
+                        <li><a href="montaz.php">Montaż</a></li>
+                        <li><a href="logistyka.php">Logistyka</a></li>
                     </ul>
 
                 </div>
