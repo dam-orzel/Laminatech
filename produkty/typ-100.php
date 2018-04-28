@@ -29,7 +29,11 @@
                         <div class="col-xs-12 col-lg-7 type-header-description">
                             <h2 class="d-none d-lg-block">Typ 100</h2>
                             <div class="description-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
+                                <span>Niezawodne odwodnienie liniowe typu 100, które znajduje swoje zastosowanie w mniej obciążonych miejscach takich jak: strefy ruchu pieszego, ścieżki rowerowe. Spełniają swoją rolę także w przypadku: podjazdów przydomowych, wjazdów garażowych, parkingów dla samochodów osobowych.
+
+Dzięki zastosowaniu polimerobetonu odwodnienie montuje się w bardzo łatwy sposób ze względu na dużą jego dużą przyczepność do materiałów konstrukcyjnych. Odwodnienie liniowe typu 100 wykazuje się bardzo wysoką mrozoodpornością, dobrą izolacją elektryczną, a przede wszystkim jest niezwykle wytrzymałe i mogą służyć przez długie lata.
+
+Oferujemy odwodnienia liniowe typu 100 w różnych modelach - dzięki czemu można dopasować je według indywidualnych potrzeb</span>
                             </div>
                             <div class="legend-type">
                                 <img src="../images/icon/Ikona_Rower_blue.svg" alt="" width="26px">

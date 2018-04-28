@@ -29,7 +29,10 @@
                         <div class="col-xs-12 col-lg-7 type-header-description">
                             <h2 class="d-none d-lg-block">Typ 200</h2>
                             <div class="description-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
+                                <span>Odwodnienie liniowe typu 200 to rozwiązanie stosowane w przypadku najwyższych klas obciążenia. Wykazuje się bardzo dużą odpornością na agresywne substancje chemiczne oraz niezwykłą wytrzymałością. Stosuje się je najczęściej na drogach, placach lub parkingach przeznaczonych dla najcięższych pojazdów.
+
+Posiadamy szeroką ofertę modeli odwodnień liniowych typu 200 chcąc wyjść naprzeciw oczekiwaniom różnych klientów.
+</span>
                             </div>
                             <div class="legend-type">
                                 <img src="../images/icon/Ikona_Rower_blue.svg" alt="" width="26px">

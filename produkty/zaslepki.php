@@ -29,7 +29,9 @@
                         <div class="col-xs-12 col-lg-7 type-header-description">
                             <h2 class="d-none d-lg-block">Zaślepki</h2>
                             <div class="description-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
+                                <span>Zaślepkę odwodnienia liniowego wykorzystuje się w celu zamknięcia kanału odwadniającego. W swojej ofercie posiadamy zaślepki o różnych wysokościach, aby zapewnić naszym klientom dopasowanie tego elementu według potrzeb i zastosowania.
+
+W naszej ofercie znajdą Państwo zaślepki bez otworu odpływowego, jak i te posiadające otwór odpływowy. </span>
                             </div>
                             <div class="legend-type d-none">
                                 <img src="../images/icon/Ikona_Rower_blue.svg" alt="" width="26px">

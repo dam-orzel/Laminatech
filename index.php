@@ -34,7 +34,7 @@
                                         normy, są przyjazne dla środowiska, oraz nie zanieczyszczają gruntów i pobliskich wód
                                         powierzchniowych.</span>
                                 </div>
-                                <button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2">Czytaj więcej</button>
+                                <a href="wlasciwosci.php"><button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2 home-button">Czytaj więcej</button></a>
                             </div>
                         </div>
                     </div>

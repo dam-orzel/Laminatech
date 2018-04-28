@@ -29,7 +29,10 @@
                         <div class="col-xs-12 col-lg-7 type-header-description">
                             <h2 class="d-none d-lg-block">Typ 100-O</h2>
                             <div class="description-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
+                                <span>Odwodnienie liniowe 100 O z Okuciem Ocynkowanym to idealne rozwiązanie w dość mocno obciążonych miejscach. Może być wykorzystywane na stacjach benzynowych, parkingach, poboczach, placach przeładunkowych oraz w miejscach, gdzie panuje duże natężenie samochodów ciężarowych i dostawczych.
+
+W zależności od indywidualnych potrzeb oferujemy odwodnienia liniowe typu 100 O wykorzystujące w kratkach różne materiały: stal ocynkowaną, żeliwo, tworzywo sztuczne zwykłe lub szczelinowe.
+</span>
                             </div>
                             <div class="legend-type">
                                 <img src="../images/icon/Ikona_Rower_blue.svg" alt="" width="26px">
@@ -259,7 +262,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 second-column">
-                        
+
                         <div class="row">
                             <div class="col-3 col-xl-2">
                                 <a href="popup-maker-wp.rar" download><img src="../images/icon/Ikona_Download_File.svg" alt=""></a>

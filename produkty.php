@@ -69,8 +69,10 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-5 pl-2">Niezawodne odwodnienie liniowe typu 100, które znajduje swoje zastosowanie w mniej obciążonych miejscach takich jak: strefy ruchu pieszego, ścieżki rowerowe. Spełniają swoją rolę także w przypadku: podjazdów przydomowych, wjazdów garażowych, parkingów dla samochodów osobowych.
+
+Dzięki zastosowaniu polimerobetonu odwodnienie montuje się w bardzo łatwy sposób ze względu na dużą jego dużą przyczepność do materiałów konstrukcyjnych. Odwodnienie liniowe typu 100 wykazuje się bardzo wysoką mrozoodpornością, dobrą izolacją elektryczną, a przede wszystkim jest niezwykle wytrzymałe i mogą służyć przez długie lata.
+</p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/typ-100.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
@@ -100,8 +102,10 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-5 pl-2">Odwodnienie liniowe 100 O z Okuciem Ocynkowanym to idealne rozwiązanie w dość mocno obciążonych miejscach. Może być wykorzystywane na stacjach benzynowych, parkingach, poboczach, placach przeładunkowych oraz w miejscach, gdzie panuje duże natężenie samochodów ciężarowych i dostawczych.
+
+W zależności od indywidualnych potrzeb oferujemy odwodnienia liniowe typu 100 O wykorzystujące w kratkach różne materiały: stal ocynkowaną, żeliwo, tworzywo sztuczne zwykłe lub szczelinowe.
+</p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/typ-100-O.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
@@ -131,8 +135,10 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-4 pl-2">Solidne i wytrzymałe odwodnienie liniowe typu 150 sprawdzi się w przypadku wysokich klas obciążeń. Stosowane jest w miejscach o dużym natężeniu ruchu samochodów ciężarowych i dostawczych. Odwodnienia liniowe typu 150 montuje się najczęściej na placach rozładunkowych hurtowni lub zakładów pracy, parkingach lub na drogach.
+
+Szeroki wybór modeli dostępnych u nas odwodnień liniowych typu 150 umożliwia dostosowanie ich do różnego rodzaju warunków. Cechują się one niepowtarzalną odpornością na warunki atmosferyczne oraz bardzo niską ścieralnością.
+</p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/typ-150.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
@@ -162,8 +168,10 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-5 pl-2">Odwodnienie liniowe typu 200 to rozwiązanie stosowane w przypadku najwyższych klas obciążenia. Wykazuje się bardzo dużą odpornością na agresywne substancje chemiczne oraz niezwykłą wytrzymałością. Stosuje się je najczęściej na drogach, placach lub parkingach przeznaczonych dla najcięższych pojazdów.
+
+Posiadamy szeroką ofertę modeli odwodnień liniowych typu 200 chcąc wyjść naprzeciw oczekiwaniom klientów.
+</p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/typ-200.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
@@ -193,8 +201,11 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-5 pl-2">Wykonana z najwyższej jakości materiałów wycieraczka przeznaczona dla odwodnień liniowych. Znajduje swoje zastosowanie przed wejściem do lokalu lub domu. Produkt jest ocynkowany, co skutkuje zwiększoną odpornością na działanie zmiennych warunków atmosferycznych oraz na wilgoć.
+
+W komplecie znajduje się rama, w której zbierają się wszelkiego rodzaju zabrudzenia.
+
+</p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/wycieraczki.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>
@@ -224,8 +235,9 @@
                     </div>
                     <div class="col-xs-12 col-lg-8">
                         <div class="row">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            <p class="pr-5 pl-3">Zaślepkę odwodnienia liniowego wykorzystuje się w celu zamknięcia kanału odwadniającego. W swojej ofercie posiadamy zaślepki o różnych wysokościach, aby zapewnić naszym klientom dopasowanie tego elementu według potrzeb i zastosowania.
+
+W naszej ofercie znajdą Państwo zaślepki bez otworu odpływowego, jak i te posiadające otwór odpływowy. </p>
                             <div class="bottom-box">
                                 <span>Dostępne modele !</span>
                                 <a href="produkty/zaslepki.php"><button class="btn btn-sm btn-primary">Zobacz wszystkie</button></a>

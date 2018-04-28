@@ -74,8 +74,12 @@ $dev-xl: min-width 1200px;
 .product-type-bg, .product-type {
 
     padding         : 3% 4%;
-    border-left: 0px solid #1A80E0;
-    transition: border-left 0.3s;
+
+    @include breakpoint($dev-xl) {
+        border-left: 0px solid #1A80E0;
+        transition: border-left 0.3s;
+    }
+
 
     h2 {
         font-size     : 20px;
@@ -142,8 +146,11 @@ $dev-xl: min-width 1200px;
             }
     }
     &:hover {
-        border-left: 10px solid #1A80E0;
-        transition: border-left 0.3s;
+        @include breakpoint($dev-xl) {
+            border-left: 10px solid #1A80E0;
+            transition: border-left 0.3s;
+        }
+
     }
 
 }

@@ -29,7 +29,10 @@
                         <div class="col-xs-12 col-lg-7 type-header-description">
                             <h2 class="d-none d-lg-block">Typ 150</h2>
                             <div class="description-content">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, quidem. Officiis, impedit, saepe. Repudiandae et doloribus ducimus impedit, repellat voluptatum sapiente, aliquid eos vel architecto voluptate assumenda in. Ipsum sed facere quo necessitatibus ut illo quas fuga, deserunt voluptate tempore minima, accusantium cupiditate quod dignissimos sapiente. Voluptatibus aut, repellat quidem sit omnis recusandae. Alias reprehenderit, fuga dolorum! Debitis quibusdam dolorum, aliquid quod recusandae nesciunt a harum, voluptatum labore non facilis. Pariatur natus tempora, ratione! Sit non voluptates odio ducimus mollitia eius asperiores! Ipsam porro corporis id tempora, expedita, repellat architecto voluptatum dignissimos ratione explicabo facere, temporibus. Quia voluptates doloribus debitis.</span>
+                                <span>Solidne i wytrzymałe odwodnienie liniowe typu 150 sprawdzi się w przypadku wysokich klas obciążeń. Stosowane jest w miejscach o dużym natężeniu ruchu samochodów ciężarowych i dostawczych. Odwodnienia liniowe typu 150 montuje się najczęściej na placach rozładunkowych hurtowni lub zakładów pracy, parkingach lub na drogach.
+
+Szeroki wybór modeli dostępnych u nas odwodnień liniowych typu 150 umożliwia dostosowanie ich do różnego rodzaju warunków. Cechują się one niepowtarzalną odpornością na warunki atmosferyczne oraz bardzo niską ścieralnością.
+</span>
                             </div>
                             <div class="legend-type">
                                 <img src="../images/icon/Ikona_Rower_blue.svg" alt="" width="26px">
