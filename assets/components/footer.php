@@ -14,10 +14,10 @@
                         <li>Dział Techniczny: +48 693 720 972</li>
                         <li>Dział handlowy: +48 601 544 498</li>
                         </div>
-                        <li>e-mail: <a href="mailto:biuro@laminatech.pl">biuro@laminatech.pl</a></li>
+                        <li>e-mail: <a href="mailto:someone@yoursite.com">biuro@laminatech.pl</a></li>
                         <li>ul. Długa 174</li>
                         <li>43-100 Tychy</li>
-                        <li><a href="kontakt.php">Zobacz wskazówki dojazdu</a></li>
+                        <li><a href="produkty/kontakt.php">Zobacz wskazówki dojazdu</a></li>
                     </ul>
                 </div>
             </div>

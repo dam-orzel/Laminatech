@@ -138,7 +138,7 @@ uwagę na kierunek strzałek. Na początku i końcu ciągu korytek zamontować �
             <div class="row">
                     <span>Pobierz instrukcję montażu</span>
                     <div class="button-bg">
-                        <a href="popup-maker-wp.rar" download><button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button></a>
+                        <a href="http://files.clickweb.home.pl/homepl32650/file/kataloga4wersjaelektroniczna_1.pdf" download><button class="btn btn-lg"><i class="fas fa-download mr-3"></i>Katalog_produktów.pdf</button></a>
                     </div>
 
             </div>

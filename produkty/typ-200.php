@@ -257,7 +257,7 @@
                                 <a href="popup-maker-wp.rar" download><img src="../images/icon/Ikona_Download_File.svg" alt=""></a>
                             </div>
                             <div class="col-9 col-xl-10 content-box">
-                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 50 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 200 - 100-K </br><a href="http://files.clickweb.home.pl/homepl32650/file/kartaproduktuodwodnienieliniowepolimerobetonowetyp200-100-k.pdf" download>Pobierz</a></span>
                             </div>
                         </div>
                         <div class="row">
@@ -265,7 +265,7 @@
                                 <a href="popup-maker-wp.rar" download><img src="../images/icon/Ikona_Download_File.svg" alt=""></a>
                             </div>
                             <div class="col-9 col-xl-10 content-box">
-                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 130 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 200 - 200-K </br><a href="http://files.clickweb.home.pl/homepl32650/file/kartaproduktuodwodnienieliniowepolimerobetonowetyp200-200-k.pdf" download>Pobierz</a></span>
                             </div>
                         </div>
                     </div>
@@ -275,7 +275,7 @@
                                 <a href="popup-maker-wp.rar" download><img src="../images/icon/Ikona_Download_File.svg" alt=""></a>
                             </div>
                             <div class="col-9 col-xl-10 content-box">
-                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 100 - 75 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                                <span>Karta Produktu Odwodnienie Liniowe Polimerobetonowe Typ 200 - 300-K </br><a href="http://files.clickweb.home.pl/homepl32650/file/kartaproduktuodwodnienieliniowepolimerobetonowetyp200-300-k.pdf" download>Pobierz</a></span>
                             </div>
                         </div>
                         <div class="row">
@@ -283,7 +283,7 @@
                                 <a href="popup-maker-wp.rar" download><img src="../images/icon/Ikona_Download_File.svg" alt=""></a>
                             </div>
                             <div class="col-9 col-xl-10 content-box">
-                                <span>Katalog Produktów 2018 </br><a href="popup-maker-wp.rar" download>Pobierz</a></span>
+                                <span>Katalog Produktów 2018 </br><a href="http://files.clickweb.home.pl/homepl32650/file/kataloga4wersjaelektroniczna_1.pdf" download>Pobierz</a></span>
                             </div>
                         </div>
                         </div>
