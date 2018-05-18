@@ -19,7 +19,7 @@
 <?php include('assets/components/menu.php'); ?>
     <section class="google-maps">
         <div class="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2557.4683888850673!2d19.036765315719975!3d50.13366897943296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c7c6db5327a9%3A0xad8cc7cbaee5f9b1!2sD%C5%82uga+174%2C+Tychy!5e0!3m2!1spl!2spl!4v1521990085759"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.367514751493!2d19.104937015905602!3d50.116844519227094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c7389298d58b%3A0x7e8a7b2c7d7e54c9!2zTMSZZHppxYRza2EgMjc5LCA0My0xNDAgTMSZZHppbnk!5e0!3m2!1spl!2spl!4v1526641750024"
                 width="100%" height="350" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
         </div>
@@ -39,7 +39,7 @@
                     <ul>
                         <li>Zakład Produkcyjny:</li>
                         <li>Ul. Lędzińska 279</li>
-                        <li>43-140 Tychy</li>
+                        <li>43-140 Lędziny</li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-4 col-lg-3">

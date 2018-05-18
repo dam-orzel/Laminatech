@@ -30,7 +30,7 @@
                     <div class="col-3">
                         <div class="legend-item-2">
                             <img src="images/icon/Ikona_amochód_blue.svg" alt="" width="48px">
-                            <span>B125 (15,5 tony) </span>
+                            <span>B125 (12,5 tony) </span>
                         </div>
                     </div>
                     <div class="col-3">

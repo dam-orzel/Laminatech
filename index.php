@@ -34,7 +34,7 @@
                                         normy, są przyjazne dla środowiska, oraz nie zanieczyszczają gruntów i pobliskich wód
                                         powierzchniowych.</span>
                                 </div>
-                                <a href="wlasciwosci.php"><button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2 home-button">Czytaj więcej</button></a>
+                                <a href="produkty.php"><button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2 home-button">Czytaj więcej</button></a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                                 normy, są przyjazne dla środowiska, oraz nie zanieczyszczają gruntów i pobliskich wód
                                 powierzchniowych.</span>
                             </div>
-                            <button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2">Czytaj więcej</button>
+                            <a href="produkty.php"><button class="btn btn-sm btn-outline-primary d-block ml-auto mx-2 mt-3 mb-3 font-weight-bold py-2 home-button">Czytaj więcej</button></a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ widzenia bezpieczeństwa, gdyż nadmiar wody na jezdni może stwarzać zagrożen
 i zdrowia szczególnie podczas ujemnych temperatur. Odwodnienie liniowe z powodzeniem
 znajduje swoje zastosowanie także w miejscach przy drogach przeznaczonych na postój.</span>
                         </div>
-                        <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                        <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
                     <div class="col-12 col-lg-4">
                         <h3 class="font-weight-bold">Obiekty produkcyjne i przemysłowe</h3>
@@ -90,7 +90,7 @@ napędowym, benzyną oraz innymi płynami eksploatacyjnymi. Odwodnienia liniowe 
 radzą sobie z takim wyzwaniem, a ich eksploatacja tylko i wyłącznie polega na udrażnianiu odpływów
 oraz czyszczeniu kanałów.</span>
                         </div>
-                        <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                        <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
                     <div class="col-12 col-lg-4">
                         <h3 class="font-weight-bold">Garaże podziemne i piętrowe</h3>
@@ -104,7 +104,7 @@ sprawia, że odwodnienie liniowe montuje się również na publicznych, jak i pr
 parkingach. Argumentem przemawiającym za stosowaniem odwodnienia liniowego w takich
 miejscach to z pewnością łatwość w montażu i eksploatacji.</span>
                         </div>
-                        <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                        <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ widzenia bezpieczeństwa, gdyż nadmiar wody na jezdni może stwarzać zagrożen
 i zdrowia szczególnie podczas ujemnych temperatur. Odwodnienie liniowe z powodzeniem
 znajduje swoje zastosowanie także w miejscach przy drogach przeznaczonych na postój.</span>
                                 </div>
-                                <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                                <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ napędowym, benzyną oraz innymi płynami eksploatacyjnymi. Odwodnienia liniowe 
 radzą sobie z takim wyzwaniem, a ich eksploatacja polega jedynie na udrażnianiu odpływów
 oraz czyszczeniu kanałów.</span>
                                 </div>
-                                <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                                <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ sprawia, że odwodnienie liniowe montuje się również na publicznych, jak i pr
 parkingach. Argumentem przemawiającym za stosowaniem odwodnienia liniowego w takich
 miejscach to z pewnością łatwość w montażu i eksploatacji.</span>
                                 </div>
-                                <a href="#" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
+                                <a href="produkty.php" class="text-right d-block main-content-text text-muted font-weight-bold">Czytaj więcej <i class="fas fa-chevron-circle-right text-primary"></i></a>
                             </div>
                         </div>
                     </div>
