@@ -68,14 +68,19 @@ margin-top: 75px;
     color: white;
     margin-top: 100px;
     background-color: #1A80E0;
+
     @include breakpoint($dev-xs) {
         padding-top: 25%;
     }
+
     @include breakpoint($dev-md) {
         padding-top: 20%;
     }
     @include breakpoint($dev-sm) {
         padding-top: 20%;
+    }
+    @include breakpoint($dev-xss) {
+        padding-top: 35%;
     }
         .contact-item {
             text-align: center;
@@ -113,13 +118,14 @@ margin-top: 75px;
                     padding: 7%;
                     border: 10px solid white;
                     border-radius: 50%;
+
                     @include breakpoint ($dev-xs) {
                         left: 32%;
-                        top: -20%;
+                        top: -25%;
                     }
                     @include breakpoint ($dev-md) {
                         left: 30%;
-                        top: -20%;
+                        top: -35%;
                     }
                     @include breakpoint ($dev-lg) {
                         left: 24%;
@@ -131,7 +137,7 @@ margin-top: 75px;
                     }
                     @include breakpoint ($dev-xss) {
                         left: 30%;
-                        top: -20%;
+                        top: -40%;
                     }
                 }
         }
