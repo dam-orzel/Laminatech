@@ -22,9 +22,9 @@
   "homepage": "https://github.com/AzotoN1/Laminatech#readme",
   "dependencies": {
     "breakpoint-sass": "^2.7.1",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.9.3"
   },
   "devDependencies": {
-    "clean-css": "^4.1.9"
+    "clean-css": "^4.2.1"
   }
 }
